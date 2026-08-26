@@ -42,6 +42,149 @@ PAGES = [
     "Admin & Governance",
 ]
 
+PAGE_METADATA = {
+    "Executive Command Center": {
+        "label": "ภาพรวมผู้บริหาร",
+        "group": "มุมมองเชิงนโยบาย",
+        "description": "สัญญาณสำคัญ ความเสี่ยง และช่องว่างมาตรการ",
+    },
+    "Operations Dashboard": {
+        "label": "ติดตามสถานการณ์",
+        "group": "มุมมองเชิงนโยบาย",
+        "description": "แนวโน้มรายเดือน พื้นที่เสี่ยง และภาระงาน",
+    },
+    "Policy Intelligence": {
+        "label": "วิเคราะห์นโยบาย",
+        "group": "มุมมองเชิงนโยบาย",
+        "description": "ช่องว่างมาตรการและผลจำลองเชิงนโยบาย",
+    },
+    "AI Executive Summary": {
+        "label": "สรุปสำหรับผู้บริหาร",
+        "group": "มุมมองเชิงนโยบาย",
+        "description": "สรุปพร้อมหลักฐาน ข้อจำกัด และสิ่งที่ควรทำต่อ",
+    },
+    "Thailand Risk Map": {
+        "label": "แผนที่ความเสี่ยง",
+        "group": "พื้นที่และสัญญาณเตือน",
+        "description": "ดูระดับจังหวัด อำเภอ และโรงเรียน",
+    },
+    "Early Warning Engine": {
+        "label": "กติกาเตือนภัย",
+        "group": "พื้นที่และสัญญาณเตือน",
+        "description": "ตรวจสูตรคะแนน เหตุผล และความเชื่อมั่น",
+    },
+    "Alert Center & Detail": {
+        "label": "ศูนย์แจ้งเตือน",
+        "group": "พื้นที่และสัญญาณเตือน",
+        "description": "จัดลำดับ alert หลักฐาน SLA และสถานะ",
+    },
+    "Case / Action Tracking": {
+        "label": "ติดตามการดำเนินงาน",
+        "group": "การปฏิบัติและกำกับดูแล",
+        "description": "มอบหมายผู้รับผิดชอบ วันครบกำหนด และผลลัพธ์",
+    },
+    "Data Import": {
+        "label": "นำเข้าข้อมูล",
+        "group": "การปฏิบัติและกำกับดูแล",
+        "description": "ตรวจ schema คุณภาพข้อมูล และ source",
+    },
+    "Executive Report Export": {
+        "label": "ออกรายงาน",
+        "group": "การปฏิบัติและกำกับดูแล",
+        "description": "รายงานสำหรับประชุมและ export workbook",
+    },
+    "Admin & Governance": {
+        "label": "ธรรมาภิบาลระบบ",
+        "group": "การปฏิบัติและกำกับดูแล",
+        "description": "สิทธิ์ผู้ใช้ สุขภาพข้อมูล lineage และ audit",
+    },
+}
+
+MENU_GROUPS = [
+    "มุมมองเชิงนโยบาย",
+    "พื้นที่และสัญญาณเตือน",
+    "การปฏิบัติและกำกับดูแล",
+]
+
+DISPLAY_COLUMN_LABELS = {
+    "id": "รหัส Alert",
+    "case_id": "รหัส Case",
+    "alert_id": "รหัส Alert",
+    "student_id": "รหัสผู้เรียน",
+    "period": "รอบข้อมูล",
+    "province": "จังหวัด",
+    "district": "อำเภอ",
+    "school_name": "สถานศึกษา",
+    "risk_score": "คะแนนเสี่ยง",
+    "score": "คะแนน",
+    "avg_risk": "คะแนนเสี่ยงเฉลี่ย",
+    "before_avg_risk": "ก่อนจำลอง",
+    "after_avg_risk": "หลังจำลอง",
+    "risk_level": "ระดับความเสี่ยง",
+    "severity": "ความรุนแรง",
+    "priority_score": "ลำดับความสำคัญ",
+    "status": "สถานะ",
+    "sla_due_at": "ครบกำหนด SLA",
+    "created_at": "วันที่สร้าง",
+    "due_at": "วันครบกำหนด",
+    "resolved_at": "วันที่ปิดงาน",
+    "owner": "ผู้รับผิดชอบ",
+    "action_note": "แนวทางดำเนินงาน",
+    "outcome": "ผลลัพธ์/บทเรียน",
+    "learners": "จำนวนผู้เรียน",
+    "people": "จำนวนคน",
+    "risk_people": "กลุ่มเสี่ยง",
+    "covered": "ครอบคลุมแล้ว",
+    "coverage_gap": "ช่องว่างมาตรการ",
+    "gap_rate": "อัตราช่องว่าง",
+    "critical": "วิกฤต",
+    "high": "สูง",
+    "risk_load": "ภาระความเสี่ยง",
+    "uncovered": "ยังไม่ครอบคลุม",
+    "attendance_rate": "อัตราเข้าเรียน",
+    "gpa": "GPA",
+    "income_per_month": "รายได้/เดือน",
+    "dropout_risk_flag": "เสี่ยงหลุดระบบ",
+    "disability_flag": "พิการ",
+    "remote_area_flag": "พื้นที่ห่างไกล",
+    "program_coverage_flag": "มีมาตรการ",
+    "confidence": "ความเชื่อมั่น",
+    "drivers": "ปัจจัยเสี่ยง",
+    "trigger": "เงื่อนไขเตือน",
+    "message": "ข้อความแจ้งเตือน",
+    "evidence_refs": "หลักฐานอ้างอิง",
+    "data_quality_flag": "คุณภาพข้อมูล",
+    "rule_version": "เวอร์ชันกติกา",
+    "model_version": "เวอร์ชันโมเดล",
+    "source_id": "แหล่งข้อมูล",
+    "run_id": "รอบนำเข้า",
+    "source_name": "ชื่อแหล่งข้อมูล",
+    "imported_at": "เวลานำเข้า",
+    "row_count": "จำนวนแถว",
+    "completeness": "ความครบถ้วน",
+    "freshness_days": "อายุข้อมูล",
+    "schema_status": "สถานะโครงสร้างข้อมูล",
+    "name": "ชื่อ",
+    "definition": "นิยาม",
+    "formula": "สูตร",
+    "denominator": "ฐานคำนวณ",
+    "aggregation_level": "ระดับสรุปผล",
+    "source_fields": "ฟิลด์ต้นทาง",
+    "updated_at": "ปรับปรุงล่าสุด",
+    "program_id": "รหัสมาตรการ",
+    "target_group": "กลุ่มเป้าหมาย",
+    "area_scope": "ขอบเขตพื้นที่",
+    "coverage_count": "จำนวนครอบคลุม",
+    "before_score": "คะแนนก่อน",
+    "after_score": "คะแนนหลัง",
+    "risk_delta": "ผลต่างคะแนน",
+    "before_level": "ระดับก่อน",
+    "after_level": "ระดับหลัง",
+    "before_covered": "ก่อนมีมาตรการ",
+    "after_covered": "หลังมีมาตรการ",
+    "targeted": "อยู่ในกลุ่มเป้าหมาย",
+}
+
 ROLE_PERMISSIONS = {
     "executive": {
         "Executive Command Center",
@@ -567,6 +710,12 @@ def apply_up_theme():
         background:
             linear-gradient(180deg, rgba(141, 56, 201, 0.08), rgba(255, 255, 255, 0) 220px),
             var(--up-bg);
+        font-size: 16px;
+    }}
+
+    .block-container {{
+        max-width: 1480px;
+        padding-top: 2rem;
     }}
 
     .stApp::before {{
@@ -599,7 +748,7 @@ def apply_up_theme():
     }}
 
     .up-brand-lockup .product {{
-        font-size: 1.16rem;
+        font-size: 1.24rem;
         line-height: 1.15;
         font-weight: 800;
         color: var(--up-primary-dark);
@@ -607,7 +756,7 @@ def apply_up_theme():
 
     .up-brand-lockup .institution {{
         margin-top: 0.2rem;
-        font-size: 0.86rem;
+        font-size: 0.94rem;
         font-weight: 700;
         color: var(--up-primary);
     }}
@@ -615,7 +764,7 @@ def apply_up_theme():
     .up-brand-lockup .mission {{
         margin-top: 0.22rem;
         color: #5E6673;
-        font-size: 0.78rem;
+        font-size: 0.86rem;
     }}
 
     .up-page-banner {{
@@ -640,14 +789,43 @@ def apply_up_theme():
         margin: 0.22rem 0 0;
         padding: 0;
         color: var(--up-primary-dark);
-        font-size: 2rem;
+        font-size: 2.08rem;
         line-height: 1.18;
     }}
 
     .up-page-banner .subtitle {{
         margin-top: 0.35rem;
         color: #596171;
-        font-size: 0.98rem;
+        font-size: 1.08rem;
+        line-height: 1.45;
+    }}
+
+    .up-scope-strip {{
+        display: grid;
+        grid-template-columns: repeat(4, minmax(150px, 1fr));
+        gap: 0.65rem;
+        margin: -0.35rem 0 1.15rem;
+    }}
+
+    .up-scope-item {{
+        padding: 0.8rem 0.95rem;
+        border: 1px solid rgba(141, 56, 201, 0.14);
+        border-left: 4px solid var(--up-accent);
+        border-radius: 8px;
+        background: #FFFFFF;
+    }}
+
+    .up-scope-item .label {{
+        color: #5E6673;
+        font-size: 0.82rem;
+        font-weight: 800;
+    }}
+
+    .up-scope-item .value {{
+        margin-top: 0.2rem;
+        color: var(--up-primary-dark);
+        font-size: 1.08rem;
+        font-weight: 800;
     }}
 
     h1, h2, h3 {{
@@ -667,10 +845,12 @@ def apply_up_theme():
     div[data-testid="stMetricLabel"] p {{
         color: #606875;
         font-weight: 700;
+        font-size: 0.98rem;
     }}
 
     div[data-testid="stMetricValue"] {{
         color: var(--up-primary-dark);
+        font-size: 2rem;
     }}
 
     .stButton > button,
@@ -715,12 +895,14 @@ def apply_up_theme():
     div[data-testid="stDataFrame"] [role="columnheader"] {{
         color: var(--up-primary-dark);
         font-weight: 800;
+        font-size: 0.94rem;
         background: #F1E7F8;
         border-bottom: 1px solid rgba(196, 153, 108, 0.35);
     }}
 
     div[data-testid="stDataFrame"] [role="gridcell"] {{
         color: #252A33;
+        font-size: 0.95rem;
         border-color: rgba(141, 56, 201, 0.08);
     }}
 
@@ -738,30 +920,50 @@ def apply_up_theme():
     }}
 
     .up-sidebar-menu-label {{
-        margin: 0.9rem 0 0.35rem;
+        margin: 1rem 0 0.45rem;
         color: var(--up-primary-dark);
-        font-size: 0.78rem;
+        font-size: 0.9rem;
         font-weight: 800;
     }}
 
     .up-menu-active {{
-        padding: 0.55rem 0.7rem;
-        margin: 0.18rem 0;
+        padding: 0.72rem 0.78rem;
+        margin: 0.2rem 0 0.35rem;
         border-left: 4px solid var(--up-accent);
         border-radius: 8px;
         background: rgba(141, 56, 201, 0.10);
         color: var(--up-primary-dark);
-        font-size: 0.88rem;
+        font-size: 0.98rem;
+        font-weight: 800;
+    }}
+
+    .up-menu-active .menu-description {{
+        margin-top: 0.2rem;
+        color: #606875;
+        font-size: 0.78rem;
+        font-weight: 600;
+        line-height: 1.35;
+    }}
+
+    .up-menu-group {{
+        margin: 1rem 0 0.35rem;
+        padding-top: 0.5rem;
+        border-top: 1px solid rgba(141, 56, 201, 0.12);
+        color: var(--up-primary-dark);
+        font-size: 0.8rem;
         font-weight: 800;
     }}
 
     section[data-testid="stSidebar"] .stButton > button {{
         width: 100%;
+        min-height: 44px;
+        padding: 0.55rem 0.72rem;
         justify-content: flex-start;
         border: 1px solid rgba(141, 56, 201, 0.12);
         background: #FFFFFF;
         color: #4E5664;
         font-weight: 700;
+        font-size: 0.92rem;
         text-align: left;
     }}
 
@@ -808,15 +1010,49 @@ def render_sidebar_menu(allowed_pages: list) -> str:
         current = allowed_pages[0]
         st.session_state.page = current
 
-    st.sidebar.markdown('<div class="up-sidebar-menu-label">เมนูระบบ</div>', unsafe_allow_html=True)
-    for menu_page in allowed_pages:
-        if menu_page == current:
-            st.sidebar.markdown(f'<div class="up-menu-active">{menu_page}</div>', unsafe_allow_html=True)
+    st.sidebar.markdown('<div class="up-sidebar-menu-label">เลือกมุมมองงาน</div>', unsafe_allow_html=True)
+    rendered = set()
+    for group in MENU_GROUPS:
+        group_pages = [page for page in allowed_pages if PAGE_METADATA.get(page, {}).get("group") == group]
+        if not group_pages:
             continue
-        if st.sidebar.button(menu_page, key=f"nav_{menu_page}", width="stretch"):
+        st.sidebar.markdown(f'<div class="up-menu-group">{group}</div>', unsafe_allow_html=True)
+        for menu_page in group_pages:
+            meta = PAGE_METADATA.get(menu_page, {})
+            label = meta.get("label", menu_page)
+            description = meta.get("description", "")
+            rendered.add(menu_page)
+            if menu_page == current:
+                st.sidebar.markdown(
+                    f'<div class="up-menu-active">{label}<div class="menu-description">{description}</div></div>',
+                    unsafe_allow_html=True,
+                )
+                continue
+            if st.sidebar.button(label, key=f"nav_{menu_page}", width="stretch"):
+                st.session_state.page = menu_page
+                st.rerun()
+    for menu_page in [page for page in allowed_pages if page not in rendered]:
+        label = PAGE_METADATA.get(menu_page, {}).get("label", menu_page)
+        if st.sidebar.button(label, key=f"nav_{menu_page}", width="stretch"):
             st.session_state.page = menu_page
             st.rerun()
     return st.session_state.page
+
+
+def render_scope_summary(selected_period: str, selected_province: str, rows: int, alerts_count: int):
+    period = "ทุกช่วงเวลา" if selected_period == "ทั้งหมด" else selected_period
+    province = "ทุกพื้นที่" if selected_province == "ทั้งหมด" else selected_province
+    st.markdown(
+        f"""
+<section class="up-scope-strip">
+  <div class="up-scope-item"><div class="label">ช่วงข้อมูล</div><div class="value">{period}</div></div>
+  <div class="up-scope-item"><div class="label">พื้นที่</div><div class="value">{province}</div></div>
+  <div class="up-scope-item"><div class="label">จำนวนระเบียน</div><div class="value">{rows:,}</div></div>
+  <div class="up-scope-item"><div class="label">Alert ในมุมมองนี้</div><div class="value">{alerts_count:,}</div></div>
+</section>
+""",
+        unsafe_allow_html=True,
+    )
 
 
 def apply_chart_theme(fig):
@@ -835,7 +1071,8 @@ def apply_chart_theme(fig):
 
 
 def risk_cell_style(value) -> str:
-    color = RISK_COLORS.get(str(value))
+    thai_to_level = {thai: level for level, thai in RISK_LABELS_TH.items()}
+    color = RISK_COLORS.get(str(value)) or RISK_COLORS.get(thai_to_level.get(str(value)))
     if not color:
         return ""
     return f"color: {color}; background-color: {color}14; font-weight: 800;"
@@ -844,7 +1081,19 @@ def risk_cell_style(value) -> str:
 def style_up_dataframe(data):
     if not isinstance(data, pd.DataFrame):
         return data
-    styler = data.style.set_table_styles(
+    display_data = data.copy()
+    for col in ["risk_level", "severity", "before_level", "after_level"]:
+        if col in display_data.columns:
+            display_data[col] = display_data[col].astype(str).replace(RISK_LABELS_TH)
+    if "status" in display_data.columns:
+        display_data["status"] = display_data["status"].astype(str).replace(
+            {"Open": "เปิดอยู่", "In Progress": "กำลังดำเนินการ", "Closed": "ปิดแล้ว", "Active": "ใช้งาน", "Pilot": "นำร่อง"}
+        )
+    for col in ["dropout_risk_flag", "disability_flag", "remote_area_flag", "program_coverage_flag", "before_covered", "after_covered", "targeted"]:
+        if col in display_data.columns:
+            display_data[col] = display_data[col].replace({1: "ใช่", 0: "ไม่ใช่", True: "ใช่", False: "ไม่ใช่"})
+    display_data = display_data.rename(columns=DISPLAY_COLUMN_LABELS)
+    styler = display_data.style.set_table_styles(
         [
             {
                 "selector": "thead th",
@@ -852,6 +1101,8 @@ def style_up_dataframe(data):
                     ("background-color", "#F1E7F8"),
                     ("color", UP_PRIMARY_DARK),
                     ("font-weight", "800"),
+                    ("font-size", "15px"),
+                    ("line-height", "1.35"),
                     ("border-bottom", f"1px solid {UP_ACCENT}66"),
                 ],
             },
@@ -864,16 +1115,26 @@ def style_up_dataframe(data):
                 "props": [
                     ("border-color", "rgba(141, 56, 201, 0.08)"),
                     ("color", UP_TEXT),
+                    ("font-size", "15px"),
+                    ("line-height", "1.45"),
                 ],
             },
         ]
     )
-    risk_columns = [col for col in ["risk_level", "severity", "before_level", "after_level"] if col in data.columns]
+    risk_column_names = ["risk_level", "severity", "before_level", "after_level"]
+    risk_columns = [
+        DISPLAY_COLUMN_LABELS.get(col, col)
+        for col in risk_column_names
+        if DISPLAY_COLUMN_LABELS.get(col, col) in display_data.columns
+    ]
     if risk_columns:
         if hasattr(styler, "map"):
             styler = styler.map(risk_cell_style, subset=risk_columns)
         else:
             styler = styler.applymap(risk_cell_style, subset=risk_columns)
+    numeric_columns = display_data.select_dtypes(include="number").columns
+    if len(numeric_columns):
+        styler = styler.format(precision=1, thousands=",", subset=numeric_columns)
     return styler
 
 
@@ -1267,11 +1528,11 @@ def update_case(case_id: int, status: str, outcome: str):
 
 def apply_filters(df: pd.DataFrame):
     st.sidebar.divider()
-    st.sidebar.subheader("ตัวกรองข้อมูล")
+    st.sidebar.subheader("ตัวกรองมุมมอง")
     periods = ["ทั้งหมด"] + sorted(df["period"].dropna().astype(str).unique().tolist(), reverse=True)
     provinces = ["ทั้งหมด"] + sorted(df["province"].dropna().astype(str).unique().tolist())
-    selected_period = st.sidebar.selectbox("ช่วงเวลา", periods)
-    selected_province = st.sidebar.selectbox("พื้นที่", provinces)
+    selected_period = st.sidebar.selectbox("ช่วงข้อมูล", periods)
+    selected_province = st.sidebar.selectbox("พื้นที่/จังหวัด", provinces)
     filtered = df.copy()
     if selected_period != "ทั้งหมด":
         filtered = filtered[filtered["period"] == selected_period]
@@ -1470,20 +1731,22 @@ def render_login():
     st.info("Demo: admin/admin1234, analyst/analyst1234, executive/exec1234")
 
 
-def command_center(df: pd.DataFrame, alerts: pd.DataFrame):
-    render_page_banner("Executive Command Center", "UP-branded command view for policy risk, alerts and coverage gaps")
+def command_center(df: pd.DataFrame, alerts: pd.DataFrame, selected_period: str, selected_province: str):
+    render_page_banner("ภาพรวมผู้บริหาร", "ดูสัญญาณสำคัญเพื่อจัดลำดับพื้นที่ มาตรการ และการติดตามเชิงนโยบาย")
     total = len(df)
     critical = int((df.risk_level == "Critical").sum()) if total else 0
     high = int((df.risk_level == "High").sum()) if total else 0
     avg = df.risk_score.mean() if total else 0
     open_alerts = int((alerts.status != "Closed").sum()) if not alerts.empty else 0
+    render_scope_summary(selected_period, selected_province, total, len(alerts))
 
     c1, c2, c3, c4, c5 = st.columns(5)
-    c1.metric("เด็ก/เยาวชนในระบบ", f"{total:,}")
-    c2.metric("Critical", f"{critical:,}")
-    c3.metric("High Risk", f"{high:,}")
-    c4.metric("Risk Pulse", f"{avg:.1f}/100")
-    c5.metric("Open Alerts", f"{open_alerts:,}")
+    c1.metric("ผู้เรียนในมุมมองนี้", f"{total:,}")
+    c2.metric("วิกฤต ต้องเร่งติดตาม", f"{critical:,}")
+    c3.metric("เสี่ยงสูง", f"{high:,}")
+    c4.metric("คะแนนเสี่ยงเฉลี่ย", f"{avg:.1f}/100")
+    c5.metric("Alert ที่ยังไม่ปิด", f"{open_alerts:,}")
+    st.info("อ่านจากซ้ายไปขวา: ขนาดปัญหา, กลุ่มเร่งด่วน, ระดับความเสี่ยงเฉลี่ย, และงานที่ยังต้องติดตาม")
 
     left, right = st.columns([1, 1])
     with left:
@@ -1493,7 +1756,7 @@ def command_center(df: pd.DataFrame, alerts: pd.DataFrame):
             counts,
             x="risk_level",
             y="count",
-            title="Risk Distribution",
+            title="สัดส่วนระดับความเสี่ยง",
             text="count",
             color="risk_level",
             color_discrete_map=RISK_COLORS,
@@ -1503,23 +1766,23 @@ def command_center(df: pd.DataFrame, alerts: pd.DataFrame):
         trend = what_changed(st.session_state.data)
         if trend.empty:
             prov = df.groupby("province", as_index=False).agg(avg_risk=("risk_score", "mean"), people=("student_id", "count"))
-            fig2 = px.bar(prov.sort_values("avg_risk", ascending=False).head(10), x="avg_risk", y="province", orientation="h", title="Top Risk Provinces")
+            fig2 = px.bar(prov.sort_values("avg_risk", ascending=False).head(10), x="avg_risk", y="province", orientation="h", title="จังหวัดที่มีคะแนนเสี่ยงเฉลี่ยสูง")
         else:
-            fig2 = px.bar(trend.head(10), x="change", y="province", orientation="h", title="What Changed vs Previous Period")
+            fig2 = px.bar(trend.head(10), x="change", y="province", orientation="h", title="พื้นที่ที่เปลี่ยนแปลงจากรอบก่อน")
         fig2.update_layout(yaxis={"categoryorder": "total ascending"})
         st.plotly_chart(apply_chart_theme(fig2), width="stretch")
 
     gap = coverage_gap(df)
     a, b = st.columns([1, 1])
     with a:
-        st.subheader("Top Alerts")
+        st.subheader("Alert ที่ควรดูเป็นลำดับแรก")
         cols = ["id", "severity", "province", "school_name", "score", "priority_score", "status", "sla_due_at"]
         themed_dataframe(alerts[cols].head(10) if not alerts.empty else pd.DataFrame(columns=cols), width="stretch", hide_index=True)
     with b:
-        st.subheader("Coverage Gap")
+        st.subheader("ช่องว่างมาตรการ")
         themed_dataframe(gap.head(10), width="stretch", hide_index=True)
 
-    st.subheader("KPI Metadata / Data Lineage")
+    st.subheader("ที่มาและความน่าเชื่อถือของข้อมูล")
     themed_dataframe(load_table("import_runs").sort_values("run_id", ascending=False).head(5), width="stretch", hide_index=True)
     with st.expander("KPI Dictionary"):
         themed_dataframe(load_table("kpi_definitions"), width="stretch", hide_index=True)
@@ -1528,8 +1791,7 @@ def command_center(df: pd.DataFrame, alerts: pd.DataFrame):
 
 
 def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period: str, selected_province: str):
-    render_page_banner("Operations Dashboard", "Monthly operations pulse, area workload and school watchlist")
-    st.caption("ภาพรวมรายเดือน พื้นที่เสี่ยง ภาระงาน alert และโรงเรียนที่ควรติดตาม")
+    render_page_banner("ติดตามสถานการณ์", "ดูแนวโน้มรายเดือน ภาระงานพื้นที่ และสถานศึกษาที่ควรติดตาม")
 
     if df.empty:
         st.info("ไม่มีข้อมูลตามตัวกรองที่เลือก")
@@ -1543,13 +1805,14 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
     coverage_rate = (coverage / len(risky) * 100) if len(risky) else 0
     open_alerts = int((alerts["status"] != "Closed").sum()) if not alerts.empty else 0
     critical_alerts = int((alerts["severity"] == "Critical").sum()) if not alerts.empty and "severity" in alerts.columns else 0
+    render_scope_summary(selected_period, selected_province, len(focus_df), len(alerts))
 
     k1, k2, k3, k4, k5 = st.columns(5)
-    k1.metric("Learners in Scope", f"{len(focus_df):,}", f"period {focus_period}")
-    k2.metric("High/Critical", f"{len(risky):,}", f"{(len(risky) / len(focus_df) * 100):.1f}%")
-    k3.metric("Coverage Rate", f"{coverage_rate:.1f}%")
-    k4.metric("Open Alerts", f"{open_alerts:,}")
-    k5.metric("Critical Alerts", f"{critical_alerts:,}")
+    k1.metric("ผู้เรียนรอบปัจจุบัน", f"{len(focus_df):,}", f"รอบ {focus_period}")
+    k2.metric("เสี่ยงสูง/วิกฤต", f"{len(risky):,}", f"{(len(risky) / len(focus_df) * 100):.1f}%")
+    k3.metric("มาตรการครอบคลุม", f"{coverage_rate:.1f}%")
+    k4.metric("Alert เปิดอยู่", f"{open_alerts:,}")
+    k5.metric("Alert วิกฤต", f"{critical_alerts:,}")
 
     trend_base = st.session_state.data.copy()
     if selected_province != "ทั้งหมด":
@@ -1571,7 +1834,7 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
             x="period",
             y=["avg_risk", "high_critical"],
             markers=True,
-            title="Monthly Risk Pulse and High/Critical Volume",
+            title="แนวโน้มคะแนนเสี่ยงและจำนวนกลุ่มเสี่ยงสูง/วิกฤต",
         )
         fig.update_layout(legend_title_text="", yaxis_title="Score / learners")
         st.plotly_chart(apply_chart_theme(fig), width="stretch")
@@ -1583,7 +1846,7 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
             names="risk_level",
             values="learners",
             hole=0.45,
-            title=f"Risk Mix: {focus_period}",
+            title=f"สัดส่วนความเสี่ยง: {focus_period}",
             color="risk_level",
             color_discrete_map=RISK_COLORS,
         )
@@ -1608,13 +1871,13 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
             y="province",
             orientation="h",
             color="coverage_gap",
-            title="Province Risk Load and Coverage Gap",
+            title="ภาระความเสี่ยงและช่องว่างมาตรการรายจังหวัด",
             text="risk_load",
         )
         fig.update_layout(yaxis={"categoryorder": "total ascending"}, xaxis_title="High/Critical learners")
         st.plotly_chart(apply_chart_theme(fig), width="stretch")
     with p2:
-        st.subheader("Province Matrix")
+        st.subheader("ตารางจังหวัดเพื่อจัดลำดับการติดตาม")
         themed_dataframe(
             province.sort_values(["coverage_gap", "risk_load"], ascending=False)[
                 ["province", "learners", "avg_risk", "risk_load", "critical", "coverage_gap"]
@@ -1625,7 +1888,7 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
 
     w1, w2 = st.columns([1, 1])
     with w1:
-        st.subheader("School Watchlist")
+        st.subheader("สถานศึกษาที่ควรติดตาม")
         school = focus_df.groupby(["province", "district", "school_name"], as_index=False).agg(
             avg_risk=("risk_score", "mean"),
             learners=("student_id", "count"),
@@ -1641,7 +1904,7 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
             hide_index=True,
         )
     with w2:
-        st.subheader("Alert Workload")
+        st.subheader("ภาระงาน Alert รายพื้นที่")
         if alerts.empty:
             st.info("ยังไม่มี alert ตามตัวกรอง")
         else:
@@ -1651,7 +1914,7 @@ def operations_dashboard(df: pd.DataFrame, alerts: pd.DataFrame, selected_period
                 x="province",
                 y="alerts",
                 color="severity",
-                title="Alerts by Province and Severity",
+                title="จำนวน Alert แยกตามจังหวัดและความรุนแรง",
                 color_discrete_map=RISK_COLORS,
             )
             fig.update_layout(xaxis_title="", yaxis_title="Alerts")
@@ -1985,7 +2248,7 @@ def main():
     ensure_seed_state()
 
     render_sidebar_brand()
-    st.sidebar.caption(f"ผู้ใช้: {st.session_state.user['username']} ({st.session_state.user['role']})")
+    st.sidebar.caption(f"ผู้ใช้: {st.session_state.user['username']} | สิทธิ์: {st.session_state.user['role']}")
     allowed_pages = [page for page in PAGES if page in ROLE_PERMISSIONS[st.session_state.user["role"]]]
     page = render_sidebar_menu(allowed_pages)
     if st.sidebar.button("ออกจากระบบ"):
@@ -2003,7 +2266,7 @@ def main():
     display_alerts = mask_sensitive_dataframe(alerts)
 
     if page == "Executive Command Center":
-        command_center(display_df, display_alerts)
+        command_center(display_df, display_alerts, selected_period, selected_province)
     elif page == "Operations Dashboard":
         operations_dashboard(display_df, display_alerts, selected_period, selected_province)
     elif page == "Data Import":
