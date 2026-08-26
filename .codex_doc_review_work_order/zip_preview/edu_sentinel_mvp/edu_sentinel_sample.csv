@@ -1,0 +1,11 @@
+student_id,province,attendance_rate,gpa,income_per_month,dropout_risk_flag,disability_flag,remote_area_flag
+STU-00001,Bangkok,96,3.35,22000,0,0,0
+STU-00002,Chiang Mai,82,2.40,7200,1,0,1
+STU-00003,Tak,68,1.85,4800,1,0,1
+STU-00004,Pattani,74,2.05,6500,1,0,0
+STU-00005,Khon Kaen,90,2.85,11000,0,1,0
+STU-00006,Mae Hong Son,61,1.60,3900,1,1,1
+STU-00007,Songkhla,88,2.70,9000,0,0,0
+STU-00008,Ubon Ratchathani,77,2.20,7000,1,0,1
+STU-00009,Chonburi,98,3.60,26000,0,0,0
+STU-00010,Narathiwat,71,1.95,5500,1,0,0

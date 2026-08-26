@@ -1,0 +1,661 @@
+﻿student_id,province,district,school_name,period,attendance_rate,gpa,income_per_month,dropout_risk_flag,disability_flag,remote_area_flag,program_coverage_flag
+STU-00001,Bangkok,Bang Kapi,Urban Access Academy,2026-03,77.7,2.71,6456,0,0,0,1
+STU-00001,Bangkok,Bang Kapi,Urban Access Academy,2026-04,97.2,3.05,20022,0,0,0,0
+STU-00001,Bangkok,Bang Kapi,Urban Access Academy,2026-05,92.1,3.12,10963,0,0,0,1
+STU-00001,Bangkok,Bang Kapi,Urban Access Academy,2026-06,95.1,3.65,12210,0,0,0,1
+STU-00001,Bangkok,Bang Kapi,Urban Access Academy,2026-07,79.7,2.75,8784,0,0,0,0
+STU-00001,Bangkok,Bang Kapi,Urban Access Academy,2026-08,94.9,3.66,22163,0,0,0,1
+STU-00002,Bangkok,Phaya Thai,Bangkok Equity School,2026-03,80.4,2.07,5762,0,0,0,1
+STU-00002,Bangkok,Phaya Thai,Bangkok Equity School,2026-04,81.3,2.34,9035,0,0,0,1
+STU-00002,Bangkok,Phaya Thai,Bangkok Equity School,2026-05,75.9,2.12,4415,0,0,0,0
+STU-00002,Bangkok,Phaya Thai,Bangkok Equity School,2026-06,96.1,3.58,22793,0,0,0,1
+STU-00002,Bangkok,Phaya Thai,Bangkok Equity School,2026-07,97.9,2.96,27568,0,0,0,1
+STU-00002,Bangkok,Phaya Thai,Bangkok Equity School,2026-08,97.5,2.92,13000,0,0,0,0
+STU-00003,Bangkok,Khlong Toei,Metro Bridge School,2026-03,93.0,3.48,25644,0,0,0,0
+STU-00003,Bangkok,Khlong Toei,Metro Bridge School,2026-04,76.0,2.44,8172,0,0,0,1
+STU-00003,Bangkok,Khlong Toei,Metro Bridge School,2026-05,84.3,2.56,7669,0,0,0,1
+STU-00003,Bangkok,Khlong Toei,Metro Bridge School,2026-06,84.7,2.13,9506,0,0,0,1
+STU-00003,Bangkok,Khlong Toei,Metro Bridge School,2026-07,92.9,3.15,22345,0,0,0,0
+STU-00003,Bangkok,Khlong Toei,Metro Bridge School,2026-08,77.4,2.11,11159,0,0,0,1
+STU-00004,Bangkok,Khlong Toei,Metro Bridge School,2026-03,79.5,2.42,4682,0,0,0,1
+STU-00004,Bangkok,Khlong Toei,Metro Bridge School,2026-04,97.0,2.93,22931,0,0,0,1
+STU-00004,Bangkok,Khlong Toei,Metro Bridge School,2026-05,97.3,3.49,23008,0,0,0,0
+STU-00004,Bangkok,Khlong Toei,Metro Bridge School,2026-06,76.0,2.28,5265,0,0,0,0
+STU-00004,Bangkok,Khlong Toei,Metro Bridge School,2026-07,96.9,3.09,13988,0,0,0,1
+STU-00004,Bangkok,Khlong Toei,Metro Bridge School,2026-08,96.2,3.65,23430,0,0,0,1
+STU-00005,Bangkok,Khlong Toei,Metro Bridge School,2026-03,91.9,3.09,16903,0,1,0,1
+STU-00005,Bangkok,Khlong Toei,Metro Bridge School,2026-04,92.7,3.58,18181,0,1,0,1
+STU-00005,Bangkok,Khlong Toei,Metro Bridge School,2026-05,51.8,1.11,2053,0,1,0,0
+STU-00005,Bangkok,Khlong Toei,Metro Bridge School,2026-06,62.0,1.69,5255,0,1,0,0
+STU-00005,Bangkok,Khlong Toei,Metro Bridge School,2026-07,49.3,1.21,2331,1,1,0,1
+STU-00005,Bangkok,Khlong Toei,Metro Bridge School,2026-08,63.9,2.11,3564,0,1,0,1
+STU-00006,Bangkok,Phaya Thai,Bangkok Equity School,2026-03,74.4,2.48,6974,0,0,0,0
+STU-00006,Bangkok,Phaya Thai,Bangkok Equity School,2026-04,91.6,3.71,21167,0,0,0,1
+STU-00006,Bangkok,Phaya Thai,Bangkok Equity School,2026-05,93.0,2.86,24398,0,0,0,1
+STU-00006,Bangkok,Phaya Thai,Bangkok Equity School,2026-06,78.5,2.23,5023,0,0,0,0
+STU-00006,Bangkok,Phaya Thai,Bangkok Equity School,2026-07,80.6,2.45,7468,0,0,0,1
+STU-00006,Bangkok,Phaya Thai,Bangkok Equity School,2026-08,98.4,3.65,22126,0,0,0,1
+STU-00007,Bangkok,Bang Kapi,Bang Kapi City School,2026-03,96.7,3.47,15169,0,0,0,1
+STU-00007,Bangkok,Bang Kapi,Bang Kapi City School,2026-04,80.4,2.23,5591,0,0,0,1
+STU-00007,Bangkok,Bang Kapi,Bang Kapi City School,2026-05,94.2,2.92,21144,0,0,0,1
+STU-00007,Bangkok,Bang Kapi,Bang Kapi City School,2026-06,91.9,3.34,18513,0,0,0,1
+STU-00007,Bangkok,Bang Kapi,Bang Kapi City School,2026-07,97.8,3.15,16801,0,0,0,1
+STU-00007,Bangkok,Bang Kapi,Bang Kapi City School,2026-08,76.3,2.17,6035,0,0,0,0
+STU-00008,Bangkok,Phaya Thai,Bangkok Equity School,2026-03,93.1,3.24,12286,0,0,0,0
+STU-00008,Bangkok,Phaya Thai,Bangkok Equity School,2026-04,85.6,2.57,9804,0,0,0,0
+STU-00008,Bangkok,Phaya Thai,Bangkok Equity School,2026-05,64.0,1.52,2659,0,0,0,1
+STU-00008,Bangkok,Phaya Thai,Bangkok Equity School,2026-06,76.8,2.16,9474,0,0,0,0
+STU-00008,Bangkok,Phaya Thai,Bangkok Equity School,2026-07,92.2,3.52,23122,0,0,0,1
+STU-00008,Bangkok,Phaya Thai,Bangkok Equity School,2026-08,76.0,2.55,7427,0,0,0,1
+STU-00009,Bangkok,Bang Kapi,Bang Kapi City School,2026-03,69.1,1.53,2310,0,0,0,1
+STU-00009,Bangkok,Bang Kapi,Bang Kapi City School,2026-04,80.4,2.75,4648,0,0,0,1
+STU-00009,Bangkok,Bang Kapi,Bang Kapi City School,2026-05,91.8,3.27,22309,0,0,0,0
+STU-00009,Bangkok,Bang Kapi,Bang Kapi City School,2026-06,98.3,3.59,24480,0,0,0,0
+STU-00009,Bangkok,Bang Kapi,Bang Kapi City School,2026-07,97.0,3.09,14798,0,0,0,1
+STU-00009,Bangkok,Bang Kapi,Bang Kapi City School,2026-08,86.3,2.67,11316,0,0,0,0
+STU-00010,Bangkok,Bang Kapi,Urban Access Academy,2026-03,96.7,3.12,17849,1,0,0,1
+STU-00010,Bangkok,Bang Kapi,Urban Access Academy,2026-04,70.5,2.51,11693,1,0,0,1
+STU-00010,Bangkok,Bang Kapi,Urban Access Academy,2026-05,93.9,3.66,18406,1,0,0,1
+STU-00010,Bangkok,Bang Kapi,Urban Access Academy,2026-06,91.5,3.23,23436,1,0,0,1
+STU-00010,Bangkok,Bang Kapi,Urban Access Academy,2026-07,73.0,2.1,9855,1,0,0,1
+STU-00010,Bangkok,Bang Kapi,Urban Access Academy,2026-08,82.4,2.3,4350,1,0,0,1
+STU-00011,Bangkok,Bang Kapi,Urban Access Academy,2026-03,97.1,2.86,22786,0,0,0,1
+STU-00011,Bangkok,Bang Kapi,Urban Access Academy,2026-04,77.0,2.75,10743,0,0,0,1
+STU-00011,Bangkok,Bang Kapi,Urban Access Academy,2026-05,95.4,3.49,11284,0,0,0,0
+STU-00011,Bangkok,Bang Kapi,Urban Access Academy,2026-06,95.4,3.27,24548,0,0,0,1
+STU-00011,Bangkok,Bang Kapi,Urban Access Academy,2026-07,91.7,2.88,20752,0,0,0,1
+STU-00011,Bangkok,Bang Kapi,Urban Access Academy,2026-08,86.7,2.68,5760,0,0,0,1
+STU-00012,Bangkok,Bang Kapi,Bang Kapi City School,2026-03,80.3,2.1,6764,0,0,0,1
+STU-00012,Bangkok,Bang Kapi,Bang Kapi City School,2026-04,83.1,2.09,5522,0,0,0,1
+STU-00012,Bangkok,Bang Kapi,Bang Kapi City School,2026-05,83.1,2.46,10965,0,0,0,0
+STU-00012,Bangkok,Bang Kapi,Bang Kapi City School,2026-06,93.6,3.64,16880,0,0,0,0
+STU-00012,Bangkok,Bang Kapi,Bang Kapi City School,2026-07,76.6,2.24,8536,0,0,0,1
+STU-00012,Bangkok,Bang Kapi,Bang Kapi City School,2026-08,95.3,3.68,11771,0,0,0,1
+STU-00013,Bangkok,Khlong Toei,Metro Bridge School,2026-03,50.4,1.09,1138,0,0,0,0
+STU-00013,Bangkok,Khlong Toei,Metro Bridge School,2026-04,64.7,1.47,5543,0,0,0,1
+STU-00013,Bangkok,Khlong Toei,Metro Bridge School,2026-05,83.7,2.12,4213,0,0,0,0
+STU-00013,Bangkok,Khlong Toei,Metro Bridge School,2026-06,82.5,2.5,6886,0,0,0,1
+STU-00013,Bangkok,Khlong Toei,Metro Bridge School,2026-07,76.1,2.52,8355,0,0,0,1
+STU-00013,Bangkok,Khlong Toei,Metro Bridge School,2026-08,78.5,2.19,4924,0,0,0,0
+STU-00014,Bangkok,Phaya Thai,Riverside Learning Hub,2026-03,83.1,2.47,8006,0,0,0,1
+STU-00014,Bangkok,Phaya Thai,Riverside Learning Hub,2026-04,92.1,3.66,19068,0,0,0,1
+STU-00014,Bangkok,Phaya Thai,Riverside Learning Hub,2026-05,77.7,2.72,9232,0,0,0,1
+STU-00014,Bangkok,Phaya Thai,Riverside Learning Hub,2026-06,76.4,2.65,9121,0,0,0,0
+STU-00014,Bangkok,Phaya Thai,Riverside Learning Hub,2026-07,70.2,1.8,4068,0,0,0,1
+STU-00014,Bangkok,Phaya Thai,Riverside Learning Hub,2026-08,78.9,2.24,9745,0,0,0,1
+STU-00015,Chiang Mai,Fang,Fang Border School,2026-03,77.4,2.72,11360,0,0,0,0
+STU-00015,Chiang Mai,Fang,Fang Border School,2026-04,74.7,2.28,9043,0,0,0,0
+STU-00015,Chiang Mai,Fang,Fang Border School,2026-05,49.5,1.02,1716,0,1,0,0
+STU-00015,Chiang Mai,Fang,Fang Border School,2026-06,49.3,1.02,2566,0,0,0,0
+STU-00015,Chiang Mai,Fang,Fang Border School,2026-07,45.0,1.07,1934,0,0,0,0
+STU-00015,Chiang Mai,Fang,Fang Border School,2026-08,76.4,1.74,2816,0,0,0,0
+STU-00016,Chiang Mai,Omkoi,Mountain Path Academy,2026-03,75.1,1.88,5735,0,0,0,1
+STU-00016,Chiang Mai,Omkoi,Mountain Path Academy,2026-04,69.8,1.86,6008,1,0,1,1
+STU-00016,Chiang Mai,Omkoi,Mountain Path Academy,2026-05,97.8,3.25,27488,0,0,0,1
+STU-00016,Chiang Mai,Omkoi,Mountain Path Academy,2026-06,78.0,2.67,5390,0,0,0,1
+STU-00016,Chiang Mai,Omkoi,Mountain Path Academy,2026-07,92.4,3.76,13331,0,0,0,1
+STU-00016,Chiang Mai,Omkoi,Mountain Path Academy,2026-08,77.0,2.26,7592,0,0,0,1
+STU-00017,Chiang Mai,Mae Rim,Mae Rim Learning Center,2026-03,97.7,3.41,24517,0,0,0,0
+STU-00017,Chiang Mai,Mae Rim,Mae Rim Learning Center,2026-04,81.0,2.23,11177,0,0,0,0
+STU-00017,Chiang Mai,Mae Rim,Mae Rim Learning Center,2026-05,69.6,1.99,5560,0,0,1,1
+STU-00017,Chiang Mai,Mae Rim,Mae Rim Learning Center,2026-06,84.0,2.43,9175,0,0,0,0
+STU-00017,Chiang Mai,Mae Rim,Mae Rim Learning Center,2026-07,81.1,2.68,6695,0,0,0,1
+STU-00017,Chiang Mai,Mae Rim,Mae Rim Learning Center,2026-08,97.6,3.6,20132,0,0,0,0
+STU-00018,Chiang Mai,Mae Rim,North Valley School,2026-03,96.1,3.45,17789,0,0,0,0
+STU-00018,Chiang Mai,Mae Rim,North Valley School,2026-04,79.5,2.48,8046,0,0,1,1
+STU-00018,Chiang Mai,Mae Rim,North Valley School,2026-05,96.4,2.86,12213,0,0,0,1
+STU-00018,Chiang Mai,Mae Rim,North Valley School,2026-06,94.7,3.57,22045,0,0,0,0
+STU-00018,Chiang Mai,Mae Rim,North Valley School,2026-07,94.0,3.3,21911,0,0,0,1
+STU-00018,Chiang Mai,Mae Rim,North Valley School,2026-08,85.1,2.74,6273,0,0,1,0
+STU-00019,Chiang Mai,Fang,Northern Care School,2026-03,92.9,3.29,21202,0,0,0,0
+STU-00019,Chiang Mai,Fang,Northern Care School,2026-04,94.5,3.1,26753,0,0,0,0
+STU-00019,Chiang Mai,Fang,Northern Care School,2026-05,83.7,2.58,9445,0,0,0,1
+STU-00019,Chiang Mai,Fang,Northern Care School,2026-06,85.3,2.07,5801,0,0,0,1
+STU-00019,Chiang Mai,Fang,Northern Care School,2026-07,92.9,3.04,16694,0,0,0,0
+STU-00019,Chiang Mai,Fang,Northern Care School,2026-08,83.5,2.73,7978,0,0,0,1
+STU-00020,Chiang Mai,Mae Rim,North Valley School,2026-03,66.0,1.86,2597,0,0,0,0
+STU-00020,Chiang Mai,Mae Rim,North Valley School,2026-04,79.6,2.41,9774,0,0,0,0
+STU-00020,Chiang Mai,Mae Rim,North Valley School,2026-05,92.1,3.62,17031,0,0,0,1
+STU-00020,Chiang Mai,Mae Rim,North Valley School,2026-06,85.2,2.26,4699,0,0,0,0
+STU-00020,Chiang Mai,Mae Rim,North Valley School,2026-07,86.3,2.51,6643,0,0,0,0
+STU-00020,Chiang Mai,Mae Rim,North Valley School,2026-08,90.2,3.73,15563,0,0,1,1
+STU-00021,Chiang Mai,Fang,Northern Care School,2026-03,94.8,3.05,26697,1,0,1,0
+STU-00021,Chiang Mai,Fang,Northern Care School,2026-04,75.9,2.22,9130,1,0,1,0
+STU-00021,Chiang Mai,Fang,Northern Care School,2026-05,88.4,3.21,10020,1,0,1,0
+STU-00021,Chiang Mai,Fang,Northern Care School,2026-06,45.0,1.2,1065,1,0,1,0
+STU-00021,Chiang Mai,Fang,Northern Care School,2026-07,61.7,1.73,2707,1,0,1,0
+STU-00021,Chiang Mai,Fang,Northern Care School,2026-08,45.5,1.22,1000,1,0,1,0
+STU-00022,Chiang Mai,Omkoi,Omkoi Highland School,2026-03,84.3,2.49,6673,0,0,1,1
+STU-00022,Chiang Mai,Omkoi,Omkoi Highland School,2026-04,96.9,3.36,21341,0,0,0,1
+STU-00022,Chiang Mai,Omkoi,Omkoi Highland School,2026-05,97.5,3.62,14124,0,0,0,1
+STU-00022,Chiang Mai,Omkoi,Omkoi Highland School,2026-06,80.9,2.62,11843,0,0,0,1
+STU-00022,Chiang Mai,Omkoi,Omkoi Highland School,2026-07,82.5,2.09,10668,0,0,1,0
+STU-00022,Chiang Mai,Omkoi,Omkoi Highland School,2026-08,63.5,1.41,1740,1,0,1,0
+STU-00023,Chiang Mai,Fang,Northern Care School,2026-03,77.9,2.26,5777,0,1,1,0
+STU-00023,Chiang Mai,Fang,Northern Care School,2026-04,97.6,3.47,21002,0,1,0,0
+STU-00023,Chiang Mai,Fang,Northern Care School,2026-05,93.3,3.05,13821,0,1,1,0
+STU-00023,Chiang Mai,Fang,Northern Care School,2026-06,83.6,2.15,4401,0,1,0,1
+STU-00023,Chiang Mai,Fang,Northern Care School,2026-07,69.6,1.89,3403,0,1,1,1
+STU-00023,Chiang Mai,Fang,Northern Care School,2026-08,79.5,2.64,9517,0,1,0,1
+STU-00024,Chiang Mai,Omkoi,Omkoi Highland School,2026-03,98.4,2.86,26940,0,0,0,0
+STU-00024,Chiang Mai,Omkoi,Omkoi Highland School,2026-04,95.7,3.31,24400,0,0,1,0
+STU-00024,Chiang Mai,Omkoi,Omkoi Highland School,2026-05,91.1,3.59,18119,0,0,1,0
+STU-00024,Chiang Mai,Omkoi,Omkoi Highland School,2026-06,68.2,1.55,3119,0,0,0,0
+STU-00024,Chiang Mai,Omkoi,Omkoi Highland School,2026-07,51.6,1.23,2519,0,1,0,1
+STU-00024,Chiang Mai,Omkoi,Omkoi Highland School,2026-08,72.0,1.99,3899,1,0,0,0
+STU-00025,Chiang Mai,Mae Rim,North Valley School,2026-03,73.7,1.82,5337,0,0,0,0
+STU-00025,Chiang Mai,Mae Rim,North Valley School,2026-04,95.4,3.36,27981,0,0,0,1
+STU-00025,Chiang Mai,Mae Rim,North Valley School,2026-05,91.0,3.43,20044,0,0,0,0
+STU-00025,Chiang Mai,Mae Rim,North Valley School,2026-06,92.1,3.11,11678,0,0,0,0
+STU-00025,Chiang Mai,Mae Rim,North Valley School,2026-07,95.1,3.64,16067,0,0,0,1
+STU-00025,Chiang Mai,Mae Rim,North Valley School,2026-08,86.6,2.27,9161,0,0,0,0
+STU-00026,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-03,65.7,2.08,3525,0,0,1,0
+STU-00026,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-04,78.7,2.44,4585,0,0,1,0
+STU-00026,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-05,57.4,1.42,5552,1,0,1,0
+STU-00026,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-06,81.7,2.53,8932,0,0,1,1
+STU-00026,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-07,82.9,2.24,9104,0,0,1,0
+STU-00026,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-08,60.1,1.69,4232,0,0,1,0
+STU-00027,Chiang Rai,Mae Sai,Northern Bridge School,2026-03,72.5,1.68,4948,0,0,0,0
+STU-00027,Chiang Rai,Mae Sai,Northern Bridge School,2026-04,93.7,3.05,14428,0,0,0,0
+STU-00027,Chiang Rai,Mae Sai,Northern Bridge School,2026-05,83.0,2.55,6201,0,0,0,1
+STU-00027,Chiang Rai,Mae Sai,Northern Bridge School,2026-06,72.6,1.6,2972,1,0,0,1
+STU-00027,Chiang Rai,Mae Sai,Northern Bridge School,2026-07,77.1,2.7,6660,0,0,0,1
+STU-00027,Chiang Rai,Mae Sai,Northern Bridge School,2026-08,83.1,2.34,7451,0,0,1,0
+STU-00028,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-03,45.8,1.0,2132,0,0,0,0
+STU-00028,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-04,62.3,1.46,2022,0,0,1,0
+STU-00028,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-05,74.0,2.61,7832,0,0,0,0
+STU-00028,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-06,78.8,2.53,9689,0,0,0,0
+STU-00028,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-07,97.8,3.24,13321,0,0,0,0
+STU-00028,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-08,80.6,2.25,9412,0,0,0,1
+STU-00029,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-03,80.4,2.17,4316,0,0,0,0
+STU-00029,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-04,72.5,2.08,5435,0,0,0,1
+STU-00029,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-05,50.3,1.0,1186,1,0,0,1
+STU-00029,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-06,97.1,2.93,22331,0,0,0,0
+STU-00029,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-07,68.0,1.68,2241,1,0,0,1
+STU-00029,Chiang Rai,Mae Sai,Mae Sai Border Academy,2026-08,86.0,2.16,8066,0,0,0,1
+STU-00030,Chiang Rai,Mae Fah Luang,Highland Care School,2026-03,73.4,1.53,3586,0,0,1,0
+STU-00030,Chiang Rai,Mae Fah Luang,Highland Care School,2026-04,78.2,2.24,5608,0,0,1,0
+STU-00030,Chiang Rai,Mae Fah Luang,Highland Care School,2026-05,95.1,3.62,13791,0,0,1,0
+STU-00030,Chiang Rai,Mae Fah Luang,Highland Care School,2026-06,82.0,2.37,9069,0,0,1,1
+STU-00030,Chiang Rai,Mae Fah Luang,Highland Care School,2026-07,81.5,2.68,6426,0,0,1,1
+STU-00030,Chiang Rai,Mae Fah Luang,Highland Care School,2026-08,61.9,2.08,5686,0,0,1,0
+STU-00031,Chiang Rai,Mae Fah Luang,Doi Access School,2026-03,68.1,1.91,4597,1,0,0,1
+STU-00031,Chiang Rai,Mae Fah Luang,Doi Access School,2026-04,45.0,1.03,1000,1,0,1,0
+STU-00031,Chiang Rai,Mae Fah Luang,Doi Access School,2026-05,78.0,2.56,7281,0,0,0,0
+STU-00031,Chiang Rai,Mae Fah Luang,Doi Access School,2026-06,79.0,2.2,5898,0,0,1,1
+STU-00031,Chiang Rai,Mae Fah Luang,Doi Access School,2026-07,77.6,2.07,11975,0,0,0,1
+STU-00031,Chiang Rai,Mae Fah Luang,Doi Access School,2026-08,73.8,2.25,6948,0,0,1,1
+STU-00032,Chiang Rai,Chiang Khong,Chiang Khong Learning Center,2026-03,97.8,3.51,19122,0,0,0,0
+STU-00032,Chiang Rai,Chiang Khong,Chiang Khong Learning Center,2026-04,85.0,2.14,7828,0,0,0,1
+STU-00032,Chiang Rai,Chiang Khong,Chiang Khong Learning Center,2026-05,91.3,3.27,13874,0,0,1,1
+STU-00032,Chiang Rai,Chiang Khong,Chiang Khong Learning Center,2026-06,93.5,3.37,22638,0,0,0,0
+STU-00032,Chiang Rai,Chiang Khong,Chiang Khong Learning Center,2026-07,85.7,2.37,8080,0,0,0,0
+STU-00032,Chiang Rai,Chiang Khong,Chiang Khong Learning Center,2026-08,82.4,2.71,5634,0,0,1,1
+STU-00033,Chiang Rai,Mae Sai,Northern Bridge School,2026-03,68.5,1.99,4746,1,0,1,1
+STU-00033,Chiang Rai,Mae Sai,Northern Bridge School,2026-04,76.4,2.63,6044,1,0,0,1
+STU-00033,Chiang Rai,Mae Sai,Northern Bridge School,2026-05,72.4,2.5,9865,1,0,0,0
+STU-00033,Chiang Rai,Mae Sai,Northern Bridge School,2026-06,90.3,3.12,19099,1,0,0,1
+STU-00033,Chiang Rai,Mae Sai,Northern Bridge School,2026-07,80.2,2.26,7605,1,0,1,0
+STU-00033,Chiang Rai,Mae Sai,Northern Bridge School,2026-08,82.2,2.6,8439,1,0,0,0
+STU-00034,Chiang Rai,Mae Fah Luang,Highland Care School,2026-03,80.0,2.32,8878,0,0,1,1
+STU-00034,Chiang Rai,Mae Fah Luang,Highland Care School,2026-04,81.3,2.73,8023,0,0,0,1
+STU-00034,Chiang Rai,Mae Fah Luang,Highland Care School,2026-05,92.4,3.6,12744,0,0,0,0
+STU-00034,Chiang Rai,Mae Fah Luang,Highland Care School,2026-06,75.6,2.39,10831,0,0,0,1
+STU-00034,Chiang Rai,Mae Fah Luang,Highland Care School,2026-07,99.0,2.92,12773,0,0,0,0
+STU-00034,Chiang Rai,Mae Fah Luang,Highland Care School,2026-08,79.8,2.64,7908,0,0,0,1
+STU-00035,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-03,93.8,2.89,11965,0,0,0,1
+STU-00035,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-04,81.6,2.12,5380,0,0,1,0
+STU-00035,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-05,76.8,2.48,10060,0,0,0,0
+STU-00035,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-06,77.8,2.38,7729,0,0,0,1
+STU-00035,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-07,75.6,2.45,6932,0,0,0,0
+STU-00035,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-08,78.0,2.75,6807,0,0,0,1
+STU-00036,Khon Kaen,Ban Phai,Ban Phai Community School,2026-03,74.9,2.73,9672,0,0,0,0
+STU-00036,Khon Kaen,Ban Phai,Ban Phai Community School,2026-04,97.9,3.21,25780,0,0,0,0
+STU-00036,Khon Kaen,Ban Phai,Ban Phai Community School,2026-05,84.5,2.2,5503,0,0,0,1
+STU-00036,Khon Kaen,Ban Phai,Ban Phai Community School,2026-06,74.3,1.77,3315,0,0,0,1
+STU-00036,Khon Kaen,Ban Phai,Ban Phai Community School,2026-07,69.2,1.76,4193,0,0,0,1
+STU-00036,Khon Kaen,Ban Phai,Ban Phai Community School,2026-08,51.5,1.11,1816,0,0,0,0
+STU-00037,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-03,77.0,2.71,7848,0,0,0,1
+STU-00037,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-04,61.3,1.74,5026,1,0,0,1
+STU-00037,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-05,76.0,1.51,6413,0,0,0,1
+STU-00037,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-06,76.1,2.45,4726,0,0,0,0
+STU-00037,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-07,93.7,3.69,16773,0,0,0,1
+STU-00037,Khon Kaen,Mueang,Khon Kaen Inclusive School,2026-08,96.3,2.97,25535,0,0,0,1
+STU-00038,Khon Kaen,Ban Phai,Ban Phai Community School,2026-03,84.0,2.51,11568,0,0,0,0
+STU-00038,Khon Kaen,Ban Phai,Ban Phai Community School,2026-04,92.1,3.11,27667,0,0,0,1
+STU-00038,Khon Kaen,Ban Phai,Ban Phai Community School,2026-05,82.7,2.48,7833,0,0,0,1
+STU-00038,Khon Kaen,Ban Phai,Ban Phai Community School,2026-06,95.1,3.19,12788,0,0,0,1
+STU-00038,Khon Kaen,Ban Phai,Ban Phai Community School,2026-07,98.1,3.62,13060,0,0,0,1
+STU-00038,Khon Kaen,Ban Phai,Ban Phai Community School,2026-08,84.3,2.33,6030,0,0,0,1
+STU-00039,Khon Kaen,Ban Phai,Ban Phai Community School,2026-03,97.6,3.18,10714,0,0,0,1
+STU-00039,Khon Kaen,Ban Phai,Ban Phai Community School,2026-04,61.5,1.93,4663,1,0,0,0
+STU-00039,Khon Kaen,Ban Phai,Ban Phai Community School,2026-05,77.4,2.15,10151,0,0,0,0
+STU-00039,Khon Kaen,Ban Phai,Ban Phai Community School,2026-06,98.4,3.71,19489,0,0,0,0
+STU-00039,Khon Kaen,Ban Phai,Ban Phai Community School,2026-07,81.3,2.4,8274,0,0,0,0
+STU-00039,Khon Kaen,Ban Phai,Ban Phai Community School,2026-08,76.5,2.12,6078,0,0,0,0
+STU-00040,Khon Kaen,Chum Phae,Plateau Learning Center,2026-03,74.2,2.48,4931,0,0,0,1
+STU-00040,Khon Kaen,Chum Phae,Plateau Learning Center,2026-04,84.9,2.23,7408,0,0,0,0
+STU-00040,Khon Kaen,Chum Phae,Plateau Learning Center,2026-05,71.7,2.05,4692,0,0,0,1
+STU-00040,Khon Kaen,Chum Phae,Plateau Learning Center,2026-06,85.4,2.57,6747,0,0,0,1
+STU-00040,Khon Kaen,Chum Phae,Plateau Learning Center,2026-07,96.1,3.31,19598,0,0,0,1
+STU-00040,Khon Kaen,Chum Phae,Plateau Learning Center,2026-08,77.7,2.1,6338,0,0,0,1
+STU-00041,Khon Kaen,Ban Phai,Mittraphap Bridge School,2026-03,98.7,3.36,15589,0,1,0,1
+STU-00041,Khon Kaen,Ban Phai,Mittraphap Bridge School,2026-04,82.7,2.61,4649,0,1,0,1
+STU-00041,Khon Kaen,Ban Phai,Mittraphap Bridge School,2026-05,62.9,1.96,6104,0,1,0,0
+STU-00041,Khon Kaen,Ban Phai,Mittraphap Bridge School,2026-06,81.2,2.62,11835,0,1,0,1
+STU-00041,Khon Kaen,Ban Phai,Mittraphap Bridge School,2026-07,79.5,2.31,8208,0,1,0,1
+STU-00041,Khon Kaen,Ban Phai,Mittraphap Bridge School,2026-08,94.0,3.49,20805,0,1,1,1
+STU-00042,Khon Kaen,Ban Phai,Ban Phai Community School,2026-03,84.6,2.72,7162,0,0,0,1
+STU-00042,Khon Kaen,Ban Phai,Ban Phai Community School,2026-04,83.6,2.47,5942,0,0,0,0
+STU-00042,Khon Kaen,Ban Phai,Ban Phai Community School,2026-05,78.0,2.52,5014,0,0,0,1
+STU-00042,Khon Kaen,Ban Phai,Ban Phai Community School,2026-06,95.7,3.09,22405,0,0,0,1
+STU-00042,Khon Kaen,Ban Phai,Ban Phai Community School,2026-07,78.5,2.58,9169,0,0,0,0
+STU-00042,Khon Kaen,Ban Phai,Ban Phai Community School,2026-08,82.2,2.52,10810,0,0,0,1
+STU-00043,Khon Kaen,Chum Phae,Plateau Learning Center,2026-03,45.0,1.11,2093,0,0,0,0
+STU-00043,Khon Kaen,Chum Phae,Plateau Learning Center,2026-04,73.1,1.51,3113,0,0,0,0
+STU-00043,Khon Kaen,Chum Phae,Plateau Learning Center,2026-05,75.3,2.51,9562,0,0,0,1
+STU-00043,Khon Kaen,Chum Phae,Plateau Learning Center,2026-06,79.5,2.47,9789,0,0,0,0
+STU-00043,Khon Kaen,Chum Phae,Plateau Learning Center,2026-07,80.7,2.29,8937,0,0,0,1
+STU-00043,Khon Kaen,Chum Phae,Plateau Learning Center,2026-08,69.7,1.94,2520,1,0,0,1
+STU-00044,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-03,75.8,2.24,5426,0,0,0,0
+STU-00044,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-04,96.1,3.36,12047,0,0,0,0
+STU-00044,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-05,97.5,3.58,26229,0,0,0,0
+STU-00044,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-06,75.2,2.21,6337,0,0,0,1
+STU-00044,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-07,73.9,1.83,2225,0,0,0,1
+STU-00044,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-08,77.1,2.12,4092,0,0,1,0
+STU-00045,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-03,74.8,2.45,5394,0,0,0,1
+STU-00045,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-04,63.7,1.45,5733,1,0,0,1
+STU-00045,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-05,76.9,2.15,11755,0,0,0,1
+STU-00045,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-06,66.4,1.95,4056,0,0,0,0
+STU-00045,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-07,78.3,2.23,4478,0,0,0,1
+STU-00045,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-08,80.8,2.23,10996,0,0,0,1
+STU-00046,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-03,83.5,2.35,8141,0,0,1,1
+STU-00046,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-04,74.5,2.07,9232,0,0,1,0
+STU-00046,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-05,95.2,2.88,18273,0,0,1,1
+STU-00046,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-06,83.9,2.41,6815,0,0,1,0
+STU-00046,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-07,93.4,3.63,17347,0,0,1,1
+STU-00046,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-08,81.6,2.31,9299,0,0,1,1
+STU-00047,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-03,97.4,3.7,22082,0,1,1,1
+STU-00047,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-04,64.6,1.73,2703,1,1,1,0
+STU-00047,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-05,73.4,2.59,5711,0,1,1,0
+STU-00047,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-06,80.4,2.18,4167,0,1,1,1
+STU-00047,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-07,81.0,2.64,9360,0,1,1,1
+STU-00047,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-08,97.0,2.92,15415,0,1,1,0
+STU-00048,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-03,75.2,2.44,11524,0,0,0,1
+STU-00048,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-04,92.1,3.17,23893,0,0,0,1
+STU-00048,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-05,74.9,2.16,11141,0,0,0,0
+STU-00048,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-06,94.3,3.48,22945,0,0,0,1
+STU-00048,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-07,93.6,3.59,13539,0,0,0,1
+STU-00048,Ubon Ratchathani,Mueang,Ubon Municipal School,2026-08,80.6,2.66,9055,0,0,0,0
+STU-00049,Ubon Ratchathani,Nam Yuen,Nam Yuen Opportunity School,2026-03,80.1,2.56,11918,0,0,0,0
+STU-00049,Ubon Ratchathani,Nam Yuen,Nam Yuen Opportunity School,2026-04,61.7,1.56,4027,1,0,0,1
+STU-00049,Ubon Ratchathani,Nam Yuen,Nam Yuen Opportunity School,2026-05,78.3,2.1,9643,0,0,0,0
+STU-00049,Ubon Ratchathani,Nam Yuen,Nam Yuen Opportunity School,2026-06,93.8,3.31,12882,0,0,1,0
+STU-00049,Ubon Ratchathani,Nam Yuen,Nam Yuen Opportunity School,2026-07,96.9,2.92,16597,0,0,0,0
+STU-00049,Ubon Ratchathani,Nam Yuen,Nam Yuen Opportunity School,2026-08,76.1,2.27,8734,0,0,0,1
+STU-00050,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-03,93.5,3.53,23393,0,0,1,1
+STU-00050,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-04,78.7,2.69,6442,0,0,1,1
+STU-00050,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-05,45.0,1.0,1000,0,0,1,0
+STU-00050,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-06,93.1,2.98,10509,0,0,1,1
+STU-00050,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-07,69.1,1.49,3594,0,0,1,1
+STU-00050,Ubon Ratchathani,Khong Chiam,River Access Learning Center,2026-08,60.3,1.79,2814,0,0,1,1
+STU-00051,Ubon Ratchathani,Khong Chiam,Mekong Border School,2026-03,95.7,2.86,25598,0,0,0,0
+STU-00051,Ubon Ratchathani,Khong Chiam,Mekong Border School,2026-04,96.6,3.48,26309,0,0,0,0
+STU-00051,Ubon Ratchathani,Khong Chiam,Mekong Border School,2026-05,76.8,2.64,9137,0,0,1,1
+STU-00051,Ubon Ratchathani,Khong Chiam,Mekong Border School,2026-06,95.6,3.05,23621,0,0,0,0
+STU-00051,Ubon Ratchathani,Khong Chiam,Mekong Border School,2026-07,78.7,2.68,8510,0,0,0,1
+STU-00051,Ubon Ratchathani,Khong Chiam,Mekong Border School,2026-08,98.7,2.97,15413,0,0,0,1
+STU-00052,Chonburi,Si Racha,Si Racha Learning Center,2026-03,64.0,1.87,6441,1,0,0,1
+STU-00052,Chonburi,Si Racha,Si Racha Learning Center,2026-04,92.0,2.86,26598,0,0,0,0
+STU-00052,Chonburi,Si Racha,Si Racha Learning Center,2026-05,84.9,2.73,8623,0,0,0,0
+STU-00052,Chonburi,Si Racha,Si Racha Learning Center,2026-06,91.8,3.66,22385,0,0,0,1
+STU-00052,Chonburi,Si Racha,Si Racha Learning Center,2026-07,96.9,3.24,24048,0,0,0,0
+STU-00052,Chonburi,Si Racha,Si Racha Learning Center,2026-08,75.1,2.63,4229,0,0,0,1
+STU-00053,Chonburi,Si Racha,Harbor Opportunity School,2026-03,93.9,3.3,19096,0,0,0,1
+STU-00053,Chonburi,Si Racha,Harbor Opportunity School,2026-04,78.0,2.35,10085,0,0,0,0
+STU-00053,Chonburi,Si Racha,Harbor Opportunity School,2026-05,85.7,2.28,11566,0,0,0,1
+STU-00053,Chonburi,Si Racha,Harbor Opportunity School,2026-06,91.6,3.27,11919,0,0,0,0
+STU-00053,Chonburi,Si Racha,Harbor Opportunity School,2026-07,94.6,3.4,19989,0,0,0,0
+STU-00053,Chonburi,Si Racha,Harbor Opportunity School,2026-08,83.4,2.58,4415,0,0,0,0
+STU-00054,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-03,73.0,1.99,4379,0,0,0,0
+STU-00054,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-04,76.2,2.41,9745,0,0,0,1
+STU-00054,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-05,78.2,2.62,7103,0,0,0,1
+STU-00054,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-06,95.1,3.58,10956,0,0,0,1
+STU-00054,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-07,45.1,1.03,2158,1,0,0,0
+STU-00054,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-08,67.8,1.73,5728,0,0,0,1
+STU-00055,Chonburi,Mueang,Chonburi City School,2026-03,85.8,2.27,6711,0,0,0,1
+STU-00055,Chonburi,Mueang,Chonburi City School,2026-04,92.3,3.46,15279,0,0,0,1
+STU-00055,Chonburi,Mueang,Chonburi City School,2026-05,83.4,2.11,7526,0,0,0,1
+STU-00055,Chonburi,Mueang,Chonburi City School,2026-06,97.9,3.59,27329,0,0,0,0
+STU-00055,Chonburi,Mueang,Chonburi City School,2026-07,79.2,2.66,9257,0,0,0,0
+STU-00055,Chonburi,Mueang,Chonburi City School,2026-08,98.4,3.46,12178,0,0,0,1
+STU-00056,Chonburi,Si Racha,Si Racha Learning Center,2026-03,96.9,3.56,18424,0,0,0,0
+STU-00056,Chonburi,Si Racha,Si Racha Learning Center,2026-04,49.4,1.17,2785,0,0,0,1
+STU-00056,Chonburi,Si Racha,Si Racha Learning Center,2026-05,71.7,1.82,4656,0,0,0,1
+STU-00056,Chonburi,Si Racha,Si Racha Learning Center,2026-06,84.4,2.63,4700,0,0,0,1
+STU-00056,Chonburi,Si Racha,Si Racha Learning Center,2026-07,91.4,3.32,11815,0,0,0,1
+STU-00056,Chonburi,Si Racha,Si Racha Learning Center,2026-08,84.5,2.25,9229,0,0,0,1
+STU-00057,Chonburi,Mueang,Coastal Demonstration School,2026-03,81.4,2.42,8388,0,0,0,1
+STU-00057,Chonburi,Mueang,Coastal Demonstration School,2026-04,74.4,2.11,9669,0,0,0,1
+STU-00057,Chonburi,Mueang,Coastal Demonstration School,2026-05,75.4,2.59,6635,0,0,0,0
+STU-00057,Chonburi,Mueang,Coastal Demonstration School,2026-06,94.7,3.52,16414,0,0,0,1
+STU-00057,Chonburi,Mueang,Coastal Demonstration School,2026-07,97.7,2.99,16235,0,0,0,1
+STU-00057,Chonburi,Mueang,Coastal Demonstration School,2026-08,98.0,3.13,10625,0,0,0,1
+STU-00058,Chonburi,Si Racha,Harbor Opportunity School,2026-03,94.0,3.17,15785,0,0,1,1
+STU-00058,Chonburi,Si Racha,Harbor Opportunity School,2026-04,75.1,2.6,3987,0,0,1,0
+STU-00058,Chonburi,Si Racha,Harbor Opportunity School,2026-05,58.7,1.77,2202,0,0,1,1
+STU-00058,Chonburi,Si Racha,Harbor Opportunity School,2026-06,74.6,2.45,6930,0,0,1,1
+STU-00058,Chonburi,Si Racha,Harbor Opportunity School,2026-07,80.5,2.3,7624,0,0,1,1
+STU-00058,Chonburi,Si Racha,Harbor Opportunity School,2026-08,64.9,2.16,5343,0,0,1,0
+STU-00059,Chonburi,Mueang,Coastal Demonstration School,2026-03,85.8,2.55,6424,0,0,0,1
+STU-00059,Chonburi,Mueang,Coastal Demonstration School,2026-04,91.1,3.69,20392,0,0,0,1
+STU-00059,Chonburi,Mueang,Coastal Demonstration School,2026-05,84.7,2.12,5469,0,0,0,1
+STU-00059,Chonburi,Mueang,Coastal Demonstration School,2026-06,85.9,2.32,6285,0,0,0,0
+STU-00059,Chonburi,Mueang,Coastal Demonstration School,2026-07,72.2,1.9,6242,0,0,0,0
+STU-00059,Chonburi,Mueang,Coastal Demonstration School,2026-08,79.5,2.53,5726,0,0,0,1
+STU-00060,Chonburi,Si Racha,Harbor Opportunity School,2026-03,78.4,2.34,9807,0,0,0,1
+STU-00060,Chonburi,Si Racha,Harbor Opportunity School,2026-04,78.6,2.21,9918,0,0,0,1
+STU-00060,Chonburi,Si Racha,Harbor Opportunity School,2026-05,93.5,3.0,18279,0,0,0,1
+STU-00060,Chonburi,Si Racha,Harbor Opportunity School,2026-06,92.1,3.6,13936,0,0,0,1
+STU-00060,Chonburi,Si Racha,Harbor Opportunity School,2026-07,97.7,3.23,14360,0,0,0,0
+STU-00060,Chonburi,Si Racha,Harbor Opportunity School,2026-08,64.8,1.8,2572,1,0,0,1
+STU-00061,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-03,92.5,3.2,20104,0,0,0,1
+STU-00061,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-04,93.8,3.15,14997,0,0,0,1
+STU-00061,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-05,75.5,2.39,10849,0,0,0,0
+STU-00061,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-06,94.6,3.33,20144,0,0,0,1
+STU-00061,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-07,75.4,2.17,7159,0,0,0,1
+STU-00061,Chonburi,Bang Lamung,Bang Lamung Municipal School,2026-08,84.3,2.72,4247,0,0,0,1
+STU-00062,Pattani,Mueang,Pattani Municipal School,2026-03,81.2,2.08,4286,0,0,0,0
+STU-00062,Pattani,Mueang,Pattani Municipal School,2026-04,94.0,3.37,21235,0,0,0,1
+STU-00062,Pattani,Mueang,Pattani Municipal School,2026-05,62.3,1.55,4609,1,0,0,0
+STU-00062,Pattani,Mueang,Pattani Municipal School,2026-06,77.9,2.18,4269,0,0,0,0
+STU-00062,Pattani,Mueang,Pattani Municipal School,2026-07,63.6,1.54,4361,0,0,0,1
+STU-00062,Pattani,Mueang,Pattani Municipal School,2026-08,80.4,2.6,7422,0,0,0,0
+STU-00063,Pattani,Yaring,Yaring Learning Center,2026-03,45.0,1.0,1261,1,0,0,0
+STU-00063,Pattani,Yaring,Yaring Learning Center,2026-04,67.6,1.96,4447,1,0,0,1
+STU-00063,Pattani,Yaring,Yaring Learning Center,2026-05,96.1,3.47,27732,0,0,0,0
+STU-00063,Pattani,Yaring,Yaring Learning Center,2026-06,92.1,3.4,17808,0,0,0,1
+STU-00063,Pattani,Yaring,Yaring Learning Center,2026-07,78.3,2.7,8611,0,0,0,1
+STU-00063,Pattani,Yaring,Yaring Learning Center,2026-08,80.6,2.66,7443,0,0,0,0
+STU-00064,Pattani,Mueang,Pattani Care Academy,2026-03,82.4,2.33,4729,1,0,0,1
+STU-00064,Pattani,Mueang,Pattani Care Academy,2026-04,74.2,2.09,7587,1,0,0,0
+STU-00064,Pattani,Mueang,Pattani Care Academy,2026-05,95.8,3.47,21472,1,0,0,0
+STU-00064,Pattani,Mueang,Pattani Care Academy,2026-06,79.9,2.66,8369,1,0,0,1
+STU-00064,Pattani,Mueang,Pattani Care Academy,2026-07,80.8,2.0,10690,1,0,0,0
+STU-00064,Pattani,Mueang,Pattani Care Academy,2026-08,76.9,2.34,10631,1,0,1,0
+STU-00065,Pattani,Yaring,Southern Bridge School,2026-03,45.0,1.07,1025,0,0,0,1
+STU-00065,Pattani,Yaring,Southern Bridge School,2026-04,70.7,1.54,5755,0,0,0,1
+STU-00065,Pattani,Yaring,Southern Bridge School,2026-05,66.5,1.79,2785,1,0,0,0
+STU-00065,Pattani,Yaring,Southern Bridge School,2026-06,79.5,2.65,7195,0,0,0,0
+STU-00065,Pattani,Yaring,Southern Bridge School,2026-07,69.9,1.54,2794,0,0,0,1
+STU-00065,Pattani,Yaring,Southern Bridge School,2026-08,85.2,2.78,4779,0,0,0,1
+STU-00066,Pattani,Mueang,Pattani Care Academy,2026-03,84.1,2.39,7316,1,0,0,1
+STU-00066,Pattani,Mueang,Pattani Care Academy,2026-04,68.8,1.87,1931,1,0,1,0
+STU-00066,Pattani,Mueang,Pattani Care Academy,2026-05,62.4,1.58,3398,1,0,0,0
+STU-00066,Pattani,Mueang,Pattani Care Academy,2026-06,74.9,2.5,5318,1,0,0,0
+STU-00066,Pattani,Mueang,Pattani Care Academy,2026-07,79.4,2.25,5189,1,0,0,0
+STU-00066,Pattani,Mueang,Pattani Care Academy,2026-08,88.3,2.98,17624,1,0,0,1
+STU-00067,Pattani,Mueang,Pattani Municipal School,2026-03,81.1,2.08,7325,0,0,0,0
+STU-00067,Pattani,Mueang,Pattani Municipal School,2026-04,98.8,3.18,23186,0,0,0,0
+STU-00067,Pattani,Mueang,Pattani Municipal School,2026-05,75.4,2.1,10631,0,0,0,1
+STU-00067,Pattani,Mueang,Pattani Municipal School,2026-06,45.0,1.17,1166,0,0,0,0
+STU-00067,Pattani,Mueang,Pattani Municipal School,2026-07,66.3,1.52,3978,1,0,0,0
+STU-00067,Pattani,Mueang,Pattani Municipal School,2026-08,74.7,1.53,5742,0,0,0,0
+STU-00068,Pattani,Mueang,Pattani Municipal School,2026-03,77.4,2.35,8116,1,0,0,0
+STU-00068,Pattani,Mueang,Pattani Municipal School,2026-04,70.0,1.96,5081,1,0,0,0
+STU-00068,Pattani,Mueang,Pattani Municipal School,2026-05,79.1,2.4,5754,1,0,0,0
+STU-00068,Pattani,Mueang,Pattani Municipal School,2026-06,95.3,2.79,18470,1,0,0,0
+STU-00068,Pattani,Mueang,Pattani Municipal School,2026-07,74.6,2.18,6703,1,0,0,0
+STU-00068,Pattani,Mueang,Pattani Municipal School,2026-08,92.8,3.24,11281,1,0,1,1
+STU-00069,Pattani,Sai Buri,Coastal Care School,2026-03,78.5,2.36,5476,1,0,0,1
+STU-00069,Pattani,Sai Buri,Coastal Care School,2026-04,89.7,2.77,25338,1,0,0,0
+STU-00069,Pattani,Sai Buri,Coastal Care School,2026-05,79.9,2.45,11326,1,0,0,0
+STU-00069,Pattani,Sai Buri,Coastal Care School,2026-06,82.6,1.93,11192,1,0,0,1
+STU-00069,Pattani,Sai Buri,Coastal Care School,2026-07,60.5,1.78,5440,1,0,0,0
+STU-00069,Pattani,Sai Buri,Coastal Care School,2026-08,82.1,2.49,7277,1,0,0,0
+STU-00070,Pattani,Mueang,Pattani Municipal School,2026-03,86.9,3.51,14019,1,0,0,0
+STU-00070,Pattani,Mueang,Pattani Municipal School,2026-04,76.4,2.29,4799,1,0,0,0
+STU-00070,Pattani,Mueang,Pattani Municipal School,2026-05,62.6,1.97,2456,1,0,0,0
+STU-00070,Pattani,Mueang,Pattani Municipal School,2026-06,69.4,1.42,2257,1,0,0,0
+STU-00070,Pattani,Mueang,Pattani Municipal School,2026-07,79.3,2.62,4482,1,0,0,1
+STU-00070,Pattani,Mueang,Pattani Municipal School,2026-08,60.6,1.46,6431,1,0,0,0
+STU-00071,Pattani,Sai Buri,Sai Buri Recovery School,2026-03,51.2,1.1,1330,1,0,0,0
+STU-00071,Pattani,Sai Buri,Sai Buri Recovery School,2026-04,52.2,1.23,2719,0,0,0,0
+STU-00071,Pattani,Sai Buri,Sai Buri Recovery School,2026-05,73.2,2.04,2693,1,0,0,0
+STU-00071,Pattani,Sai Buri,Sai Buri Recovery School,2026-06,83.0,2.18,10341,0,0,0,0
+STU-00071,Pattani,Sai Buri,Sai Buri Recovery School,2026-07,64.8,1.57,6461,1,0,0,1
+STU-00071,Pattani,Sai Buri,Sai Buri Recovery School,2026-08,64.1,1.72,2472,0,0,0,0
+STU-00072,Songkhla,Saba Yoi,Saba Yoi Care School,2026-03,76.3,2.68,5736,1,0,0,1
+STU-00072,Songkhla,Saba Yoi,Saba Yoi Care School,2026-04,81.2,2.41,4354,1,0,0,1
+STU-00072,Songkhla,Saba Yoi,Saba Yoi Care School,2026-05,91.3,2.96,16729,1,0,0,1
+STU-00072,Songkhla,Saba Yoi,Saba Yoi Care School,2026-06,74.8,2.36,4530,1,0,0,0
+STU-00072,Songkhla,Saba Yoi,Saba Yoi Care School,2026-07,46.6,1.21,1034,1,0,0,0
+STU-00072,Songkhla,Saba Yoi,Saba Yoi Care School,2026-08,65.8,1.35,2503,1,0,0,0
+STU-00073,Songkhla,Saba Yoi,Southern Access School,2026-03,61.9,1.51,4144,1,0,0,0
+STU-00073,Songkhla,Saba Yoi,Southern Access School,2026-04,82.9,2.52,9475,1,0,0,1
+STU-00073,Songkhla,Saba Yoi,Southern Access School,2026-05,64.5,1.8,2098,1,0,1,0
+STU-00073,Songkhla,Saba Yoi,Southern Access School,2026-06,74.5,1.92,7718,1,0,0,1
+STU-00073,Songkhla,Saba Yoi,Southern Access School,2026-07,72.6,1.52,6262,1,0,0,0
+STU-00073,Songkhla,Saba Yoi,Southern Access School,2026-08,73.9,2.29,5393,1,0,0,1
+STU-00074,Songkhla,Hat Yai,Songkhla Demonstration School,2026-03,76.5,2.09,5690,0,0,0,1
+STU-00074,Songkhla,Hat Yai,Songkhla Demonstration School,2026-04,95.3,3.66,10663,0,0,0,1
+STU-00074,Songkhla,Hat Yai,Songkhla Demonstration School,2026-05,84.5,2.36,4921,0,0,0,0
+STU-00074,Songkhla,Hat Yai,Songkhla Demonstration School,2026-06,71.2,1.49,2381,0,0,0,1
+STU-00074,Songkhla,Hat Yai,Songkhla Demonstration School,2026-07,51.5,1.23,1856,0,0,0,1
+STU-00074,Songkhla,Hat Yai,Songkhla Demonstration School,2026-08,48.0,1.04,1553,0,0,0,0
+STU-00075,Songkhla,Saba Yoi,Southern Access School,2026-03,68.2,1.96,3843,0,0,0,0
+STU-00075,Songkhla,Saba Yoi,Southern Access School,2026-04,81.0,2.35,5854,0,0,0,0
+STU-00075,Songkhla,Saba Yoi,Southern Access School,2026-05,92.4,3.73,27298,0,0,1,1
+STU-00075,Songkhla,Saba Yoi,Southern Access School,2026-06,92.8,3.41,17878,0,0,0,0
+STU-00075,Songkhla,Saba Yoi,Southern Access School,2026-07,83.1,2.56,8376,0,0,0,0
+STU-00075,Songkhla,Saba Yoi,Southern Access School,2026-08,62.1,1.65,4335,1,0,0,1
+STU-00076,Songkhla,Saba Yoi,Saba Yoi Care School,2026-03,68.5,1.86,3965,1,0,0,0
+STU-00076,Songkhla,Saba Yoi,Saba Yoi Care School,2026-04,82.9,2.7,4776,0,0,0,0
+STU-00076,Songkhla,Saba Yoi,Saba Yoi Care School,2026-05,70.4,1.53,2876,0,0,0,0
+STU-00076,Songkhla,Saba Yoi,Saba Yoi Care School,2026-06,77.4,2.07,7188,0,0,0,0
+STU-00076,Songkhla,Saba Yoi,Saba Yoi Care School,2026-07,84.0,2.22,9283,0,0,0,1
+STU-00076,Songkhla,Saba Yoi,Saba Yoi Care School,2026-08,92.4,3.17,16098,0,0,0,0
+STU-00077,Songkhla,Hat Yai,Songkhla Demonstration School,2026-03,65.5,1.73,5679,1,0,0,1
+STU-00077,Songkhla,Hat Yai,Songkhla Demonstration School,2026-04,82.2,2.51,6485,1,0,0,0
+STU-00077,Songkhla,Hat Yai,Songkhla Demonstration School,2026-05,75.2,2.56,9974,1,0,0,1
+STU-00077,Songkhla,Hat Yai,Songkhla Demonstration School,2026-06,46.8,1.0,1348,1,0,0,0
+STU-00077,Songkhla,Hat Yai,Songkhla Demonstration School,2026-07,61.4,2.06,5144,1,0,0,0
+STU-00077,Songkhla,Hat Yai,Songkhla Demonstration School,2026-08,94.0,2.97,23700,1,0,0,1
+STU-00078,Songkhla,Hat Yai,Songkhla Demonstration School,2026-03,89.4,3.73,19284,0,1,1,1
+STU-00078,Songkhla,Hat Yai,Songkhla Demonstration School,2026-04,82.2,2.47,8830,0,1,1,1
+STU-00078,Songkhla,Hat Yai,Songkhla Demonstration School,2026-05,90.5,3.2,20244,0,1,1,0
+STU-00078,Songkhla,Hat Yai,Songkhla Demonstration School,2026-06,76.1,2.61,9678,0,1,1,0
+STU-00078,Songkhla,Hat Yai,Songkhla Demonstration School,2026-07,58.7,1.54,2256,1,1,1,1
+STU-00078,Songkhla,Hat Yai,Songkhla Demonstration School,2026-08,77.0,2.57,8734,0,1,1,0
+STU-00079,Songkhla,Saba Yoi,Southern Access School,2026-03,49.7,1.0,1940,1,1,0,0
+STU-00079,Songkhla,Saba Yoi,Southern Access School,2026-04,68.9,1.87,5630,1,1,0,1
+STU-00079,Songkhla,Saba Yoi,Southern Access School,2026-05,70.0,1.83,4647,1,1,0,0
+STU-00079,Songkhla,Saba Yoi,Southern Access School,2026-06,74.5,2.44,5472,1,1,0,0
+STU-00079,Songkhla,Saba Yoi,Southern Access School,2026-07,65.6,1.98,4569,1,1,0,0
+STU-00079,Songkhla,Saba Yoi,Southern Access School,2026-08,59.8,2.0,4888,1,1,0,0
+STU-00080,Songkhla,Hat Yai,Hat Yai Equity School,2026-03,94.0,3.61,19874,0,0,0,0
+STU-00080,Songkhla,Hat Yai,Hat Yai Equity School,2026-04,45.0,1.2,2791,0,0,0,1
+STU-00080,Songkhla,Hat Yai,Hat Yai Equity School,2026-05,98.2,3.1,20262,0,0,0,0
+STU-00080,Songkhla,Hat Yai,Hat Yai Equity School,2026-06,84.5,2.49,10959,0,0,0,0
+STU-00080,Songkhla,Hat Yai,Hat Yai Equity School,2026-07,93.9,3.7,16459,0,0,0,1
+STU-00080,Songkhla,Hat Yai,Hat Yai Equity School,2026-08,93.3,3.72,12851,0,0,0,1
+STU-00081,Tak,Mae Sot,Mae Sot Bridge School,2026-03,82.3,2.35,9162,0,0,0,0
+STU-00081,Tak,Mae Sot,Mae Sot Bridge School,2026-04,81.3,2.69,5461,0,0,0,1
+STU-00081,Tak,Mae Sot,Mae Sot Bridge School,2026-05,70.0,1.67,4380,0,0,1,0
+STU-00081,Tak,Mae Sot,Mae Sot Bridge School,2026-06,75.9,2.34,4235,0,0,0,1
+STU-00081,Tak,Mae Sot,Mae Sot Bridge School,2026-07,70.9,1.59,1656,0,0,1,0
+STU-00081,Tak,Mae Sot,Mae Sot Bridge School,2026-08,81.2,2.16,9163,0,0,1,1
+STU-00082,Tak,Tha Song Yang,Salween Care School,2026-03,46.0,1.14,1517,0,0,0,0
+STU-00082,Tak,Tha Song Yang,Salween Care School,2026-04,73.4,1.56,5834,1,0,0,1
+STU-00082,Tak,Tha Song Yang,Salween Care School,2026-05,75.5,1.59,6205,0,0,0,0
+STU-00082,Tak,Tha Song Yang,Salween Care School,2026-06,75.8,2.19,7011,0,0,1,0
+STU-00082,Tak,Tha Song Yang,Salween Care School,2026-07,86.2,2.39,9513,0,0,0,0
+STU-00082,Tak,Tha Song Yang,Salween Care School,2026-08,65.9,2.05,5450,0,0,0,1
+STU-00083,Tak,Umphang,Umphang Highland Academy,2026-03,48.7,1.1,1384,1,0,1,0
+STU-00083,Tak,Umphang,Umphang Highland Academy,2026-04,61.7,1.74,5553,1,0,1,0
+STU-00083,Tak,Umphang,Umphang Highland Academy,2026-05,75.3,2.05,9814,1,0,1,0
+STU-00083,Tak,Umphang,Umphang Highland Academy,2026-06,85.6,2.98,11716,1,0,1,1
+STU-00083,Tak,Umphang,Umphang Highland Academy,2026-07,72.1,2.5,5959,1,0,1,1
+STU-00083,Tak,Umphang,Umphang Highland Academy,2026-08,45.0,1.21,1000,1,0,1,0
+STU-00084,Tak,Mae Sot,Border Learning Center,2026-03,90.9,3.07,11187,1,0,1,0
+STU-00084,Tak,Mae Sot,Border Learning Center,2026-04,91.6,2.96,14630,1,0,1,0
+STU-00084,Tak,Mae Sot,Border Learning Center,2026-05,90.2,3.12,26289,1,0,1,1
+STU-00084,Tak,Mae Sot,Border Learning Center,2026-06,76.5,2.48,6983,1,0,1,0
+STU-00084,Tak,Mae Sot,Border Learning Center,2026-07,87.5,3.04,26258,1,0,1,1
+STU-00084,Tak,Mae Sot,Border Learning Center,2026-08,80.7,2.35,8982,1,0,1,1
+STU-00085,Tak,Umphang,Mountain Access School,2026-03,88.6,2.91,25715,1,0,1,0
+STU-00085,Tak,Umphang,Mountain Access School,2026-04,70.4,2.62,3597,1,0,1,1
+STU-00085,Tak,Umphang,Mountain Access School,2026-05,83.2,2.27,8885,1,0,0,1
+STU-00085,Tak,Umphang,Mountain Access School,2026-06,87.4,3.04,22470,1,0,1,0
+STU-00085,Tak,Umphang,Mountain Access School,2026-07,79.5,2.5,10575,1,0,0,0
+STU-00085,Tak,Umphang,Mountain Access School,2026-08,59.1,1.75,3824,1,0,1,0
+STU-00086,Tak,Tha Song Yang,Northern Border School,2026-03,76.3,2.59,6882,0,0,1,0
+STU-00086,Tak,Tha Song Yang,Northern Border School,2026-04,88.5,3.71,12846,0,0,1,1
+STU-00086,Tak,Tha Song Yang,Northern Border School,2026-05,46.0,1.19,1000,1,0,1,0
+STU-00086,Tak,Tha Song Yang,Northern Border School,2026-06,73.2,1.56,4809,0,0,1,0
+STU-00086,Tak,Tha Song Yang,Northern Border School,2026-07,82.5,2.41,6677,0,0,1,0
+STU-00086,Tak,Tha Song Yang,Northern Border School,2026-08,95.3,2.97,26448,0,0,1,0
+STU-00087,Tak,Mae Sot,Border Learning Center,2026-03,81.2,2.48,9513,0,0,1,0
+STU-00087,Tak,Mae Sot,Border Learning Center,2026-04,62.4,1.64,5764,0,0,1,0
+STU-00087,Tak,Mae Sot,Border Learning Center,2026-05,79.9,2.46,4245,0,0,1,0
+STU-00087,Tak,Mae Sot,Border Learning Center,2026-06,65.7,1.85,3221,0,0,1,0
+STU-00087,Tak,Mae Sot,Border Learning Center,2026-07,80.0,2.48,7440,0,0,1,0
+STU-00087,Tak,Mae Sot,Border Learning Center,2026-08,81.3,2.45,10736,0,0,1,0
+STU-00088,Tak,Tha Song Yang,Northern Border School,2026-03,57.5,1.4,2373,1,0,1,0
+STU-00088,Tak,Tha Song Yang,Northern Border School,2026-04,74.5,2.47,3485,1,0,1,0
+STU-00088,Tak,Tha Song Yang,Northern Border School,2026-05,93.0,2.89,25747,1,0,1,0
+STU-00088,Tak,Tha Song Yang,Northern Border School,2026-06,88.3,3.62,19873,1,0,1,0
+STU-00088,Tak,Tha Song Yang,Northern Border School,2026-07,74.7,2.59,7869,1,0,1,0
+STU-00088,Tak,Tha Song Yang,Northern Border School,2026-08,70.4,2.56,6115,1,0,1,0
+STU-00089,Tak,Tha Song Yang,Salween Care School,2026-03,93.0,3.58,17224,0,0,0,0
+STU-00089,Tak,Tha Song Yang,Salween Care School,2026-04,76.2,2.1,10237,0,0,1,0
+STU-00089,Tak,Tha Song Yang,Salween Care School,2026-05,93.1,3.15,18294,0,0,1,1
+STU-00089,Tak,Tha Song Yang,Salween Care School,2026-06,85.8,2.61,10747,0,0,0,1
+STU-00089,Tak,Tha Song Yang,Salween Care School,2026-07,71.7,1.66,5213,1,0,0,1
+STU-00089,Tak,Tha Song Yang,Salween Care School,2026-08,90.5,3.7,19226,0,0,1,0
+STU-00090,Tak,Umphang,Umphang Highland Academy,2026-03,51.6,1.12,2142,0,1,1,0
+STU-00090,Tak,Umphang,Umphang Highland Academy,2026-04,68.5,1.94,3985,0,0,0,1
+STU-00090,Tak,Umphang,Umphang Highland Academy,2026-05,83.9,2.09,6454,0,0,0,1
+STU-00090,Tak,Umphang,Umphang Highland Academy,2026-06,96.2,3.22,16896,0,0,0,0
+STU-00090,Tak,Umphang,Umphang Highland Academy,2026-07,94.0,3.27,27969,0,0,0,0
+STU-00090,Tak,Umphang,Umphang Highland Academy,2026-08,74.7,2.33,9858,0,0,1,0
+STU-00091,Tak,Tha Song Yang,Salween Care School,2026-03,77.6,2.37,8022,0,0,1,0
+STU-00091,Tak,Tha Song Yang,Salween Care School,2026-04,76.0,2.2,10253,0,0,1,0
+STU-00091,Tak,Tha Song Yang,Salween Care School,2026-05,68.6,1.87,4074,0,0,1,1
+STU-00091,Tak,Tha Song Yang,Salween Care School,2026-06,77.6,2.73,5519,0,0,1,1
+STU-00091,Tak,Tha Song Yang,Salween Care School,2026-07,62.9,1.62,3023,0,0,1,0
+STU-00091,Tak,Tha Song Yang,Salween Care School,2026-08,68.9,1.7,3343,0,0,1,0
+STU-00092,Mae Hong Son,Sop Moei,Sop Moei Access School,2026-03,79.3,2.16,7610,0,0,1,0
+STU-00092,Mae Hong Son,Sop Moei,Sop Moei Access School,2026-04,82.5,2.18,4034,0,0,1,0
+STU-00092,Mae Hong Son,Sop Moei,Sop Moei Access School,2026-05,82.3,2.5,7101,0,0,1,1
+STU-00092,Mae Hong Son,Sop Moei,Sop Moei Access School,2026-06,95.9,3.15,20591,0,0,0,0
+STU-00092,Mae Hong Son,Sop Moei,Sop Moei Access School,2026-07,90.7,3.67,23636,0,0,1,0
+STU-00092,Mae Hong Son,Sop Moei,Sop Moei Access School,2026-08,79.5,2.28,7292,0,0,0,0
+STU-00093,Mae Hong Son,Sop Moei,Ridge Learning Center,2026-03,91.7,3.22,22036,0,0,1,0
+STU-00093,Mae Hong Son,Sop Moei,Ridge Learning Center,2026-04,94.3,3.14,15455,0,0,1,0
+STU-00093,Mae Hong Son,Sop Moei,Ridge Learning Center,2026-05,90.5,3.0,19437,0,0,1,0
+STU-00093,Mae Hong Son,Sop Moei,Ridge Learning Center,2026-06,83.0,2.73,8539,0,0,1,0
+STU-00093,Mae Hong Son,Sop Moei,Ridge Learning Center,2026-07,76.1,2.32,3539,0,0,1,0
+STU-00093,Mae Hong Son,Sop Moei,Ridge Learning Center,2026-08,80.0,2.12,6907,0,0,1,1
+STU-00094,Mae Hong Son,Pai,Highland Opportunity School,2026-03,80.8,2.52,9973,0,0,1,1
+STU-00094,Mae Hong Son,Pai,Highland Opportunity School,2026-04,78.6,2.36,9260,0,0,1,0
+STU-00094,Mae Hong Son,Pai,Highland Opportunity School,2026-05,71.0,1.78,3758,0,0,1,0
+STU-00094,Mae Hong Son,Pai,Highland Opportunity School,2026-06,82.4,2.38,4727,0,0,1,0
+STU-00094,Mae Hong Son,Pai,Highland Opportunity School,2026-07,92.4,2.97,25224,0,0,1,0
+STU-00094,Mae Hong Son,Pai,Highland Opportunity School,2026-08,76.7,2.61,4652,0,0,1,0
+STU-00095,Mae Hong Son,Pai,Highland Opportunity School,2026-03,70.6,2.06,3994,0,0,1,1
+STU-00095,Mae Hong Son,Pai,Highland Opportunity School,2026-04,77.4,2.06,4882,0,0,1,1
+STU-00095,Mae Hong Son,Pai,Highland Opportunity School,2026-05,71.3,2.28,7721,0,0,1,0
+STU-00095,Mae Hong Son,Pai,Highland Opportunity School,2026-06,75.0,2.66,9216,0,0,1,1
+STU-00095,Mae Hong Son,Pai,Highland Opportunity School,2026-07,76.8,2.35,8586,0,0,1,0
+STU-00095,Mae Hong Son,Pai,Highland Opportunity School,2026-08,68.1,1.74,2341,0,0,1,0
+STU-00096,Mae Hong Son,Pai,Highland Opportunity School,2026-03,62.2,1.53,3877,0,0,0,0
+STU-00096,Mae Hong Son,Pai,Highland Opportunity School,2026-04,72.8,2.32,3683,0,0,1,0
+STU-00096,Mae Hong Son,Pai,Highland Opportunity School,2026-05,98.4,3.23,27920,0,0,0,0
+STU-00096,Mae Hong Son,Pai,Highland Opportunity School,2026-06,71.6,2.45,6191,0,0,1,0
+STU-00096,Mae Hong Son,Pai,Highland Opportunity School,2026-07,94.8,3.2,12258,0,0,0,1
+STU-00096,Mae Hong Son,Pai,Highland Opportunity School,2026-08,84.0,2.73,4503,0,0,0,1
+STU-00097,Mae Hong Son,Mae Sariang,Mountain Bridge School,2026-03,83.2,2.37,5737,0,0,1,1
+STU-00097,Mae Hong Son,Mae Sariang,Mountain Bridge School,2026-04,93.2,2.94,23901,0,0,0,0
+STU-00097,Mae Hong Son,Mae Sariang,Mountain Bridge School,2026-05,74.4,2.63,9361,0,0,1,0
+STU-00097,Mae Hong Son,Mae Sariang,Mountain Bridge School,2026-06,77.7,2.52,7692,0,0,0,0
+STU-00097,Mae Hong Son,Mae Sariang,Mountain Bridge School,2026-07,69.3,1.65,4183,1,0,1,0
+STU-00097,Mae Hong Son,Mae Sariang,Mountain Bridge School,2026-08,84.6,2.19,4350,0,0,1,1
+STU-00098,Mae Hong Son,Mae Sariang,Mae Sariang Care School,2026-03,89.9,3.25,25007,0,0,1,0
+STU-00098,Mae Hong Son,Mae Sariang,Mae Sariang Care School,2026-04,96.2,3.46,21128,0,0,1,0
+STU-00098,Mae Hong Son,Mae Sariang,Mae Sariang Care School,2026-05,81.5,2.44,5010,0,0,1,1
+STU-00098,Mae Hong Son,Mae Sariang,Mae Sariang Care School,2026-06,89.5,3.0,18152,0,0,1,0
+STU-00098,Mae Hong Son,Mae Sariang,Mae Sariang Care School,2026-07,82.8,2.15,8724,0,0,1,1
+STU-00098,Mae Hong Son,Mae Sariang,Mae Sariang Care School,2026-08,88.6,3.51,19079,0,0,1,0
+STU-00099,Mae Hong Son,Pai,Highland Opportunity School,2026-03,79.5,2.11,7639,0,0,0,0
+STU-00099,Mae Hong Son,Pai,Highland Opportunity School,2026-04,65.1,1.53,3099,1,0,1,0
+STU-00099,Mae Hong Son,Pai,Highland Opportunity School,2026-05,85.1,2.49,4332,0,0,0,0
+STU-00099,Mae Hong Son,Pai,Highland Opportunity School,2026-06,79.3,2.29,10640,0,0,0,0
+STU-00099,Mae Hong Son,Pai,Highland Opportunity School,2026-07,80.3,2.46,8993,0,0,1,0
+STU-00099,Mae Hong Son,Pai,Highland Opportunity School,2026-08,53.6,1.01,2750,0,0,0,0
+STU-00100,Mae Hong Son,Pai,Pai Valley School,2026-03,76.0,2.15,4889,0,0,1,0
+STU-00100,Mae Hong Son,Pai,Pai Valley School,2026-04,61.5,1.55,5044,0,0,1,0
+STU-00100,Mae Hong Son,Pai,Pai Valley School,2026-05,63.5,1.45,5361,0,0,1,0
+STU-00100,Mae Hong Son,Pai,Pai Valley School,2026-06,75.7,2.08,9379,0,0,1,1
+STU-00100,Mae Hong Son,Pai,Pai Valley School,2026-07,80.0,2.54,7110,0,0,1,0
+STU-00100,Mae Hong Son,Pai,Pai Valley School,2026-08,70.1,1.94,5796,0,0,1,0
+STU-00101,Narathiwat,Sungai Kolok,Border Care School,2026-03,66.5,1.8,5627,1,0,0,0
+STU-00101,Narathiwat,Sungai Kolok,Border Care School,2026-04,85.6,2.26,6269,0,0,0,1
+STU-00101,Narathiwat,Sungai Kolok,Border Care School,2026-05,45.0,1.21,1635,0,0,0,1
+STU-00101,Narathiwat,Sungai Kolok,Border Care School,2026-06,95.3,3.1,27806,0,0,0,1
+STU-00101,Narathiwat,Sungai Kolok,Border Care School,2026-07,81.9,2.54,10024,0,0,0,1
+STU-00101,Narathiwat,Sungai Kolok,Border Care School,2026-08,77.0,2.21,10592,0,0,1,0
+STU-00102,Narathiwat,Sungai Kolok,Border Care School,2026-03,76.6,2.28,8372,0,0,0,1
+STU-00102,Narathiwat,Sungai Kolok,Border Care School,2026-04,98.1,3.54,16467,0,0,0,1
+STU-00102,Narathiwat,Sungai Kolok,Border Care School,2026-05,85.9,2.52,7139,0,0,0,0
+STU-00102,Narathiwat,Sungai Kolok,Border Care School,2026-06,65.7,2.14,5988,0,0,0,0
+STU-00102,Narathiwat,Sungai Kolok,Border Care School,2026-07,76.8,2.1,7930,0,0,0,0
+STU-00102,Narathiwat,Sungai Kolok,Border Care School,2026-08,92.7,2.89,19163,0,0,0,0
+STU-00103,Narathiwat,Sungai Kolok,Kolok Bridge Academy,2026-03,80.0,2.07,9487,0,0,0,1
+STU-00103,Narathiwat,Sungai Kolok,Kolok Bridge Academy,2026-04,68.4,1.57,4915,0,0,0,0
+STU-00103,Narathiwat,Sungai Kolok,Kolok Bridge Academy,2026-05,82.7,2.16,6872,0,0,0,1
+STU-00103,Narathiwat,Sungai Kolok,Kolok Bridge Academy,2026-06,66.6,2.11,3593,1,0,0,0
+STU-00103,Narathiwat,Sungai Kolok,Kolok Bridge Academy,2026-07,77.1,2.54,5022,0,0,0,1
+STU-00103,Narathiwat,Sungai Kolok,Kolok Bridge Academy,2026-08,98.6,3.73,21044,0,0,0,1
+STU-00104,Narathiwat,Sungai Kolok,Border Care School,2026-03,89.9,3.28,18945,1,0,1,1
+STU-00104,Narathiwat,Sungai Kolok,Border Care School,2026-04,70.6,2.06,8344,1,0,1,0
+STU-00104,Narathiwat,Sungai Kolok,Border Care School,2026-05,77.4,2.03,4903,1,0,1,0
+STU-00104,Narathiwat,Sungai Kolok,Border Care School,2026-06,88.4,2.74,9784,1,0,1,0
+STU-00104,Narathiwat,Sungai Kolok,Border Care School,2026-07,75.4,2.19,8651,1,0,1,1
+STU-00104,Narathiwat,Sungai Kolok,Border Care School,2026-08,91.3,3.25,10309,1,0,1,0
+STU-00105,Narathiwat,Tak Bai,Narathiwat Care School,2026-03,80.5,2.65,9968,1,0,0,1
+STU-00105,Narathiwat,Tak Bai,Narathiwat Care School,2026-04,89.2,3.58,24915,1,0,0,0
+STU-00105,Narathiwat,Tak Bai,Narathiwat Care School,2026-05,92.9,3.51,26729,1,0,0,0
+STU-00105,Narathiwat,Tak Bai,Narathiwat Care School,2026-06,78.3,2.27,11238,1,0,0,1
+STU-00105,Narathiwat,Tak Bai,Narathiwat Care School,2026-07,68.5,1.91,2777,1,0,1,1
+STU-00105,Narathiwat,Tak Bai,Narathiwat Care School,2026-08,72.0,1.88,5617,1,0,0,0
+STU-00106,Narathiwat,Rueso,Southern Access Academy,2026-03,79.1,2.11,4345,0,0,0,1
+STU-00106,Narathiwat,Rueso,Southern Access Academy,2026-04,91.4,3.01,20833,0,0,0,0
+STU-00106,Narathiwat,Rueso,Southern Access Academy,2026-05,83.7,2.56,5942,0,0,0,1
+STU-00106,Narathiwat,Rueso,Southern Access Academy,2026-06,93.7,3.26,24161,0,0,0,1
+STU-00106,Narathiwat,Rueso,Southern Access Academy,2026-07,77.9,2.26,6032,0,0,0,1
+STU-00106,Narathiwat,Rueso,Southern Access Academy,2026-08,80.4,2.76,11321,0,0,0,1
+STU-00107,Narathiwat,Sungai Kolok,Border Care School,2026-03,90.6,3.16,23301,1,0,0,0
+STU-00107,Narathiwat,Sungai Kolok,Border Care School,2026-04,88.9,2.99,27345,1,0,0,1
+STU-00107,Narathiwat,Sungai Kolok,Border Care School,2026-05,94.8,3.05,15068,1,0,0,0
+STU-00107,Narathiwat,Sungai Kolok,Border Care School,2026-06,91.7,3.49,22375,1,0,0,1
+STU-00107,Narathiwat,Sungai Kolok,Border Care School,2026-07,79.7,2.21,9439,1,0,0,0
+STU-00107,Narathiwat,Sungai Kolok,Border Care School,2026-08,62.7,1.56,3756,1,0,0,1
+STU-00108,Narathiwat,Tak Bai,Narathiwat Care School,2026-03,87.9,3.51,14420,1,0,0,0
+STU-00108,Narathiwat,Tak Bai,Narathiwat Care School,2026-04,79.2,2.15,10608,1,0,0,1
+STU-00108,Narathiwat,Tak Bai,Narathiwat Care School,2026-05,90.4,3.6,22084,1,0,0,0
+STU-00108,Narathiwat,Tak Bai,Narathiwat Care School,2026-06,73.9,2.0,4525,1,0,0,0
+STU-00108,Narathiwat,Tak Bai,Narathiwat Care School,2026-07,78.8,2.53,5247,1,0,0,0
+STU-00108,Narathiwat,Tak Bai,Narathiwat Care School,2026-08,59.5,1.52,6337,1,0,0,0
+STU-00109,Narathiwat,Sungai Kolok,Border Care School,2026-03,76.9,2.06,4345,1,0,1,0
+STU-00109,Narathiwat,Sungai Kolok,Border Care School,2026-04,76.7,2.4,6772,1,0,1,1
+STU-00109,Narathiwat,Sungai Kolok,Border Care School,2026-05,68.9,1.93,1735,1,0,1,0
+STU-00109,Narathiwat,Sungai Kolok,Border Care School,2026-06,75.5,2.25,10241,1,0,1,1
+STU-00109,Narathiwat,Sungai Kolok,Border Care School,2026-07,60.0,1.48,2820,1,0,1,0
+STU-00109,Narathiwat,Sungai Kolok,Border Care School,2026-08,74.1,1.97,5899,1,0,1,1
+STU-00110,Narathiwat,Sungai Kolok,Border Care School,2026-03,65.2,1.83,5219,0,0,0,0
+STU-00110,Narathiwat,Sungai Kolok,Border Care School,2026-04,71.6,1.58,5486,0,0,0,0
+STU-00110,Narathiwat,Sungai Kolok,Border Care School,2026-05,80.0,2.29,11992,0,0,0,1
+STU-00110,Narathiwat,Sungai Kolok,Border Care School,2026-06,81.4,2.64,9009,0,0,0,1
+STU-00110,Narathiwat,Sungai Kolok,Border Care School,2026-07,74.8,2.44,10800,0,0,0,1
+STU-00110,Narathiwat,Sungai Kolok,Border Care School,2026-08,93.7,3.17,13600,0,0,1,1

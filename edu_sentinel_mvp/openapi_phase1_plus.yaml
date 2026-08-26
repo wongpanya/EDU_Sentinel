@@ -1,0 +1,443 @@
+openapi: 3.0.3
+info:
+  title: EDU Sentinel Phase 1+ API Contract
+  version: 0.2.0
+  description: >
+    Draft API contract for the post-Phase 1 foundation. The current Streamlit MVP
+    uses SQLite directly, but these domains mirror the target service boundaries
+    from the development work order.
+servers:
+  - url: http://localhost:8000
+paths:
+  /dashboard/summary:
+    get:
+      summary: Executive KPI summary
+      parameters:
+        - $ref: "#/components/parameters/Period"
+        - $ref: "#/components/parameters/Province"
+      responses:
+        "200":
+          description: KPI summary with lineage references
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DashboardSummary"
+  /dashboard/what-changed:
+    get:
+      summary: Risk movement by area between periods
+      responses:
+        "200":
+          description: Area deltas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/AreaRiskDelta"
+  /areas:
+    get:
+      summary: Area tree for map and filters
+      responses:
+        "200":
+          description: Areas
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Area"
+  /alerts:
+    get:
+      summary: Alert list
+      parameters:
+        - $ref: "#/components/parameters/Period"
+        - $ref: "#/components/parameters/Province"
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [Open, In Progress, Closed]
+        - name: severity
+          in: query
+          schema:
+            type: string
+            enum: [Low, Medium, High, Critical]
+      responses:
+        "200":
+          description: Filtered alerts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Alert"
+  /alerts/{alert_id}:
+    get:
+      summary: Alert detail with evidence and data quality
+      parameters:
+        - $ref: "#/components/parameters/AlertId"
+      responses:
+        "200":
+          description: Alert detail
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Alert"
+  /alerts/{alert_id}/ack:
+    post:
+      summary: Acknowledge or update alert status
+      parameters:
+        - $ref: "#/components/parameters/AlertId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [status]
+              properties:
+                status:
+                  type: string
+                  enum: [Open, In Progress, Closed]
+      responses:
+        "204":
+          description: Status updated
+  /cases:
+    get:
+      summary: Case/action list
+      parameters:
+        - name: alert_id
+          in: query
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Cases
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CaseAction"
+    post:
+      summary: Create action from alert
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CaseCreate"
+      responses:
+        "201":
+          description: Case created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CaseAction"
+  /cases/{case_id}:
+    patch:
+      summary: Update case status and outcome
+      parameters:
+        - name: case_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                status:
+                  type: string
+                  enum: [Open, In Progress, Closed]
+                outcome:
+                  type: string
+      responses:
+        "204":
+          description: Case updated
+  /policies/programs:
+    get:
+      summary: Policy and program registry
+      responses:
+        "200":
+          description: Programs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/PolicyProgram"
+  /policies/coverage-gap:
+    get:
+      summary: Coverage gap by province
+      responses:
+        "200":
+          description: Coverage gaps
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/CoverageGap"
+  /ai/executive-summary:
+    post:
+      summary: Evidence-bound executive summary
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                period:
+                  type: string
+                province:
+                  type: string
+      responses:
+        "200":
+          description: Structured AI summary
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ExecutiveSummary"
+  /data-health/sources:
+    get:
+      summary: Data source lineage and freshness
+      responses:
+        "200":
+          description: Data sources
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/DataSource"
+  /admin/audit-logs:
+    get:
+      summary: Audit trail for governance review
+      responses:
+        "200":
+          description: Audit log entries
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/AuditLog"
+components:
+  parameters:
+    Period:
+      name: period
+      in: query
+      schema:
+        type: string
+        example: "2026-08"
+    Province:
+      name: province
+      in: query
+      schema:
+        type: string
+        example: Tak
+    AlertId:
+      name: alert_id
+      in: path
+      required: true
+      schema:
+        type: integer
+  schemas:
+    DashboardSummary:
+      type: object
+      required: [total_learners, critical, high, risk_pulse, open_alerts, lineage]
+      properties:
+        total_learners:
+          type: integer
+        critical:
+          type: integer
+        high:
+          type: integer
+        risk_pulse:
+          type: number
+        open_alerts:
+          type: integer
+        lineage:
+          type: array
+          items:
+            type: string
+    Area:
+      type: object
+      properties:
+        area_id:
+          type: string
+        name:
+          type: string
+        level:
+          type: string
+          enum: [country, province, district, school]
+        parent_id:
+          type: string
+          nullable: true
+        risk_index:
+          type: number
+    AreaRiskDelta:
+      type: object
+      properties:
+        province:
+          type: string
+        previous_risk:
+          type: number
+        current_risk:
+          type: number
+        change:
+          type: number
+    Alert:
+      type: object
+      properties:
+        id:
+          type: integer
+        student_id:
+          type: string
+          description: Masked for executive role.
+        province:
+          type: string
+        district:
+          type: string
+        school_name:
+          type: string
+        period:
+          type: string
+        severity:
+          type: string
+        score:
+          type: number
+        priority_score:
+          type: number
+        trigger:
+          type: string
+        drivers:
+          type: string
+        evidence_refs:
+          type: string
+        data_quality_flag:
+          type: string
+        rule_version:
+          type: string
+        model_version:
+          type: string
+        status:
+          type: string
+        sla_due_at:
+          type: string
+          format: date
+    CaseCreate:
+      type: object
+      required: [alert_id, owner, due_at]
+      properties:
+        alert_id:
+          type: integer
+        owner:
+          type: string
+        due_at:
+          type: string
+          format: date
+        action_note:
+          type: string
+    CaseAction:
+      allOf:
+        - $ref: "#/components/schemas/CaseCreate"
+        - type: object
+          properties:
+            case_id:
+              type: integer
+            status:
+              type: string
+            resolved_at:
+              type: string
+              nullable: true
+            outcome:
+              type: string
+              nullable: true
+    PolicyProgram:
+      type: object
+      properties:
+        program_id:
+          type: string
+        name:
+          type: string
+        target_group:
+          type: string
+        area_scope:
+          type: string
+        coverage_count:
+          type: integer
+        status:
+          type: string
+    CoverageGap:
+      type: object
+      properties:
+        province:
+          type: string
+        risk_people:
+          type: integer
+        covered:
+          type: integer
+        coverage_gap:
+          type: integer
+        gap_rate:
+          type: number
+    ExecutiveSummary:
+      type: object
+      required: [Answer, Evidence, Why, Limitations, NextAction, model_version, prompt_version]
+      properties:
+        Answer:
+          type: string
+        Evidence:
+          type: string
+        Why:
+          type: string
+        Limitations:
+          type: string
+        NextAction:
+          type: string
+        model_version:
+          type: string
+        prompt_version:
+          type: string
+    DataSource:
+      type: object
+      properties:
+        source_id:
+          type: string
+        name:
+          type: string
+        refreshed_period:
+          type: string
+        completeness:
+          type: number
+        freshness_days:
+          type: integer
+        lineage:
+          type: string
+        owner:
+          type: string
+    AuditLog:
+      type: object
+      properties:
+        audit_id:
+          type: integer
+        event_at:
+          type: string
+        username:
+          type: string
+        role:
+          type: string
+        action:
+          type: string
+        entity_type:
+          type: string
+        entity_id:
+          type: string
+        detail:
+          type: string
